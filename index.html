@@ -10,35 +10,45 @@
         </script>
         <script src="https://tikzwolke.com/v1/tikzwolke.js"></script>
         <style type="text/css">
-          #menu {
-            position: fixed;
-            right: -8.5em;
-            top: 50%;
-            width: 8em;
-            margin: -3em 0 0 0;
-            padding: 0.5em 0.5em 0.5em 2.5em;
-            z-index: 5;
-            background: hsla(80, 90%, 40%, 0.7);
-            color: white;
-            font-weight: bold;
-            font-size: large;
-            text-align: left;
-            border: solid hsla(80, 90%, 40%, 0.5);
-            border-right: none;
-            padding: 0.5em 0.5em 0.5em 2.5em;
-            box-shadow: 0 1px 3px black;
-            border-radius: 3em 0.5em 0.5em 3em;
-          }
-          #menu li { margin: 0 }
-          #menu a { color: inherit }
-        
-          /* Make menu absolute, not fixed, on IE 5 & 6 */
-          #menu { position: absolute }
-          *>#menu { position: fixed }
-        
-          p.stb { text-indent: 0; margin-top: 0.83em }
-          p.mtb { text-indent: 0; margin-top: 2.17em }
-          p.ltb { text-indent: 0; margin-top: 3.08em }</style>
+            #menu {
+    position: fixed;
+    right: -5.5em;
+    top: 50%;
+    width: 8em;
+    margin: -3em 0 0 0;
+    z-index: 5;
+    background: hsla(80, 90%, 40%, 0.7);
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    text-align: left;
+    border: solid hsla(80, 90%, 40%, 0.5);
+    border-right: none;
+    padding: 0.5em 0.5em 0.5em 2.5em;
+    box-shadow: 0 1px 3px black;
+    border-radius: 3em 0.5em 0.5em 3em;
+    transition: 0.2s;
+    /* margin: 0;
+       transform: translate(0, -50%); */
+  }
+  #menu:hover { right: 0 }
+  #menu li { margin: 0 }
+  #menu a {
+    position: relative;
+    left: 0;
+    color: inherit;
+    transition: 0.2s;
+  }
+  #menu a:focus {
+    left: -7em;
+    background: hsla(80, 90%, 40%, 0.7);
+  }
+  #menu:hover a:focus {
+    left: 0;
+    background: none;
+}
+        </style>
+          
     </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -76,14 +86,9 @@
       </form>
     </div>
   </nav>
+  
   <div class="text-center">
-      <ul id=menu>
-          <li><a href="#L384">Section 1</a>
-       
-          <li><a href="#details">Section 2</a>
-       
-          <li><a href="#FAQ">Section 3</a>
-         </ul>
+      
 <h1>Bonjour</h1>
 <p>Voici une page de tests sur LaTeX. Et hop !!!</p>
 <img src="images/sans-titre.png" class="img-fluid" alt="Responsive image">
@@ -106,7 +111,11 @@
  </div>
 </div>
 
-
+<ul id=menu>
+    <li>hop</li>
+    <li>hop</li>
+ 
+   </ul>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
