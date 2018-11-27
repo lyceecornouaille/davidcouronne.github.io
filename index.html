@@ -9,6 +9,35 @@
             src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" async>
         </script>
         <script src="https://tikzwolke.com/v1/tikzwolke.js"></script>
+        <style type="text/css">
+          #menu {
+            position: fixed;
+            right: 0;
+            top: 50%;
+            width: 8em;
+            margin: -2.5em 0 0 0;
+            z-index: 5;
+            background: hsla(80, 90%, 40%, 0.7);
+            color: white;
+            font-weight: bold;
+            font-size: large;
+            text-align: left;
+            border: solid hsla(80, 90%, 40%, 0.5);
+            border-right: none;
+            padding: 0.5em 0.5em 0.5em 2.5em;
+            box-shadow: 0 1px 3px black;
+            border-radius: 3em 0.5em 0.5em 3em;
+          }
+          #menu li { margin: 0 }
+          #menu a { color: inherit }
+        
+          /* Make menu absolute, not fixed, on IE 5 & 6 */
+          #menu { position: absolute }
+          *>#menu { position: fixed }
+        
+          p.stb { text-indent: 0; margin-top: 0.83em }
+          p.mtb { text-indent: 0; margin-top: 2.17em }
+          p.ltb { text-indent: 0; margin-top: 3.08em }</style>
     </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -47,6 +76,13 @@
     </div>
   </nav>
   <div class="text-center">
+      <ul id=menu>
+          <li><a href="#L384">Section 1</a>
+       
+          <li><a href="#details">Section 2</a>
+       
+          <li><a href="#FAQ">Section 3</a>
+         </ul>
 <h1>Bonjour</h1>
 <p>Voici une page de tests sur LaTeX. Et hop !!!</p>
 <img src="images/sans-titre.png" class="img-fluid" alt="Responsive image">
