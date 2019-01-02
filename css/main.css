@@ -13,6 +13,7 @@ body {
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {
+      content: '';
       position: absolute;
       top: 0;
       right: 0;
