@@ -12,7 +12,7 @@ body {
     background: url(../img/background.jpg);
     background-attachment: fixed;
     background-size: cover; }
-    body#bg-img .overlay {
+    body#bg-img:after {
       position: absolute;
       top: 0;
       right: 0;
