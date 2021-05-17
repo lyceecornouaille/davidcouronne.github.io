@@ -202,3 +202,26 @@ module.exports = {
   ],
 };
 ```
+
+Par exemple, pour le site que vous êtes en train de visiter:
+
+```js
+...
+presets: [
+    [
+      '@docusaurus/preset-classic',
+      {
+        docs: {
+          sidebarPath: require.resolve('./sidebars.js'),
+          // Please change this to your repo.
+          editUrl:
+            'https://github.com/DavidCouronne/davidcouronne.github.io/edit/master/',
+        },
+        blog: {
+          showReadingTime: true,
+          // Please change this to your repo.
+          editUrl:
+            'https://github.com/DavidCouronne/davidcouronne.github.io/edit/master/',
+        },
+        ...
+```
