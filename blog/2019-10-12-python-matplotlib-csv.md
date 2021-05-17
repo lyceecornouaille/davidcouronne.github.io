@@ -6,8 +6,10 @@ title: Python Mathplotlib CSV
 description: Comment utiliser matplotlib pour visualiser des .cvs
 category: dev
 tags: [python, matplotlib]
-cover_image: https://res.cloudinary.com/dpw19qolx/image/upload/t_cover-image/v1570878570/tamara-gore-cmsv5KUP2Ew-unsplash.jpg
+image: https://res.cloudinary.com/dpw19qolx/image/upload/t_cover-image/v1570878570/tamara-gore-cmsv5KUP2Ew-unsplash.jpg
 ---
+
+![](https://res.cloudinary.com/dpw19qolx/image/upload/t_cover-image/v1570878570/tamara-gore-cmsv5KUP2Ew-unsplash.jpg)
 
 Dans cet article, nous allons découvrir comment visualiser des datas provenant de fichier .csv à l'aide de Python et de Matplotlib
 

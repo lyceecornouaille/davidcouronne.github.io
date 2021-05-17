@@ -7,8 +7,10 @@ title: Astuces Python rapides à apprendre
 description: Dans cet article, nous allons voir brièvement quelques extraits de code
   abrégés que vous pouvez comprendre et apprendre en 30 secondes ou moins.
 tags: [python]
-cover_image: https://res.cloudinary.com/dpw19qolx/image/upload/t_cover-image/v1561523334/St_Michael_27s_Mount_II5302_x_2982.jpg
+image: https://res.cloudinary.com/dpw19qolx/image/upload/t_cover-image/v1561523334/St_Michael_27s_Mount_II5302_x_2982.jpg
 ---
+
+![](https://res.cloudinary.com/dpw19qolx/image/upload/t_cover-image/v1561523334/St_Michael_27s_Mount_II5302_x_2982.jpg)
 
 Dans cet article, nous allons voir quelques astuces Python rapides et faciles à apprendre.
 
