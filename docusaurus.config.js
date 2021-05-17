@@ -4,18 +4,18 @@ module.exports = {
     defaultLocale: 'fr',
     locales: ['en', 'fr'],
   },
-  title: 'My Site',
+  title: 'Mon Site',
   tagline: 'Dinosaurs are cool',
   url: 'https://davidcouronne.vercel.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'davidcouronne', // Usually your GitHub org/user name.
+  projectName: 'davidcouronne.github.io', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Mon Site',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -50,14 +50,6 @@ module.exports = {
         {
           title: 'Community',
           items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
             {
               label: 'Twitter',
               href: 'https://twitter.com/docusaurus',
