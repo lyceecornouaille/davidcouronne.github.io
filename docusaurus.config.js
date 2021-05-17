@@ -27,7 +27,7 @@ module.exports = {
   ],
   themeConfig: {
     prism: {
-      theme: require('prism-react-renderer/themes/github'),
+      theme: require('prism-react-renderer/themes/nightOwlLight'),
       darkTheme: require('prism-react-renderer/themes/dracula'),
     },
     navbar: {
