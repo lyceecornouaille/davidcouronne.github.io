@@ -107,6 +107,7 @@ module.exports = {
           remarkPlugins: [math],
           rehypePlugins: [katex],
         },
+        sitemap: {},
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
