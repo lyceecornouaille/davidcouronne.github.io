@@ -43,7 +43,7 @@
         },
         {
           "key": "Referrer-Policy",
-          "value": "strict-origin no-referrer-when-downgrade"
+          "value": "strict-origin-when-cross-origin"
         },
         {
           "key": "Permissions-Policy",
