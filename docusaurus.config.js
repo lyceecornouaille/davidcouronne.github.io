@@ -28,7 +28,7 @@ module.exports = {
   themeConfig: {
     algolia: {
       apiKey: 'BV2VZTSMSG',
-      indexName: 'DAVIDCOURONNE',
+      indexName: 'davidcouronne',
     },
     prism: {
       theme: require('prism-react-renderer/themes/nightOwlLight'),
