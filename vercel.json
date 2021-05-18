@@ -39,7 +39,7 @@
         },
         {
           "key": "Content-Security-Policy",
-          "value": "script-src *"
+          "value": "default-src 'unsafe-inline'"
         },
         {
           "key": "Referrer-Policy",
