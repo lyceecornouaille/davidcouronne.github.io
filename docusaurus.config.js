@@ -53,6 +53,10 @@ module.exports = {
           label: 'GitHub',
           position: 'right',
         },
+        {
+          type: 'localeDropdown',
+          position: 'left',
+        },
       ],
     },
     footer: {
@@ -110,6 +114,7 @@ module.exports = {
           editUrl: 'https://github.com/DavidCouronne/davidcouronne.github.io/edit/master/',
           remarkPlugins: [math],
           rehypePlugins: [katex],
+          blogSidebarTitle: 'Posts récents',
         },
         sitemap: {},
         theme: {
