@@ -37,10 +37,7 @@
           "key": "X-XSS-Protection",
           "value": "1; mode=block"
         },
-        {
-          "key": "Content-Security-Policy",
-          "value": "default-src 'self'; img-src *; style-src 'unsafe-inline'; script-src 'unsafe-inline'; style-src-elem 'unsafe-hashes'"
-        },
+
         {
           "key": "Referrer-Policy",
           "value": "strict-origin-when-cross-origin"
