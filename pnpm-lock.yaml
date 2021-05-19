@@ -7,6 +7,7 @@ specifiers:
   '@svgr/webpack': ^5.5.0
   clsx: ^1.1.1
   file-loader: ^6.2.0
+  katex: ^0.13.11
   prettier: ^2.3.0
   react: ^17.0.1
   react-dom: ^17.0.1
@@ -21,6 +22,7 @@ dependencies:
   '@svgr/webpack': 5.5.0
   clsx: 1.1.1
   file-loader: 6.2.0
+  katex: 0.13.11
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
   rehype-katex: 4.0.0
@@ -5596,6 +5598,13 @@ packages:
     hasBin: true
     dependencies:
       commander: 2.20.3
+    dev: false
+
+  /katex/0.13.11:
+    resolution: {integrity: sha512-yJBHVIgwlAaapzlbvTpVF/ZOs8UkTj/sd46Fl8+qAf2/UiituPYVeapVD8ADZtqyRg/qNWUKt7gJoyYVWLrcXw==}
+    hasBin: true
+    dependencies:
+      commander: 6.2.1
     dev: false
 
   /keyv/3.1.0:
