@@ -39,7 +39,7 @@
         },
         {
           "key": "Content-Security-Policy",
-          "value": "default-src 'self'; img-src *; style-src 'unsafe-inline';"
+          "value": "default-src 'self'; img-src *; style-src 'unsafe-inline'; script-src 'unsafe-inline'; style-src-elem 'unsafe-hashes'"
         },
         {
           "key": "Referrer-Policy",
