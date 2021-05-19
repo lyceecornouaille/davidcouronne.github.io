@@ -39,7 +39,7 @@
         },
         {
           "key": "Content-Security-Policy",
-          "value": "default-src 'self';"
+          "value": "default-src 'sha256-+Z8POB3DDKSqbqrW1bBVN+EtXKHDHvhZr36t5hLvrjA=';"
         },
         {
           "key": "Referrer-Policy",
