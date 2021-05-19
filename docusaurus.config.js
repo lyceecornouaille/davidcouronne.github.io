@@ -109,7 +109,7 @@ module.exports = {
           rehypePlugins: [katex],
           blogSidebarTitle: 'Posts récents',
         },
-        sitemap: {},
+        sitemap: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },

@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://davidcouronne.vercel.app/</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/docs/intro</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/blog</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/docs/intro</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/docs/tutorial-basics/create-a-page</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/docs/tutorial-basics/create-a-document</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/docs/tutorial-basics/create-a-blog-post</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/docs/tutorial-basics/markdown-features</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/docs/tutorial-basics/deploy-your-site</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/docs/tutorial-basics/congratulations</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/docs/tutorial-extras/manage-docs-versions</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/docs/tutorial-extras/translate-your-site</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/blog</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/blog/2021/05/17/installer-docusaurus-pnpm</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/blog/2021/05/03/environnement-travail-mac</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/blog/2020/02/25/seo-gridsome-twitter-card-open-graph-and-json-tags</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/blog/flutter-installer-flutter-sur-windows-10</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/blog/2019/11/07/eslint-gridsome-complete-guide</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/blog/tags/docusaurus</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/blog/tags/installation</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/blog/tags/developpement</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/blog/tags/mac</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/blog/tags/tutoriel</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/blog/tags/latex</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/blog/tags/python</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/blog/tags/seo</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/blog/tags/gridsome</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/blog/tags/tutorial</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/blog/2019/11/01/gridsome-tailwindcss</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/blog/tags/tailwind-css</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/blog/2019/11/01/security-headers</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/blog/tags/security</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/blog/2019/10/12/python-matplotlib-csv</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/blog/tags/matplotlib</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/blog/2019/10/04/30-astuces-python-rapides-%C3%A0-apprendre</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/blog/python-django-pwa</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/blog/tags/pwa</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/blog/tags/django</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/blog/page/2</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/docs/tutorial-basics/create-a-page</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/docs/tutorial-basics/create-a-document</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/docs/tutorial-basics/create-a-blog-post</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/docs/tutorial-basics/markdown-features</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/docs/tutorial-basics/deploy-your-site</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/docs/tutorial-basics/congratulations</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/docs/tutorial-extras/manage-docs-versions</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/docs/tutorial-extras/translate-your-site</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/blog/2021/05/17/installer-docusaurus-pnpm</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/blog/2021/05/03/environnement-travail-mac</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/blog/2020/02/25/seo-gridsome-twitter-card-open-graph-and-json-tags</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/blog/flutter-installer-flutter-sur-windows-10</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/blog/2019/11/07/eslint-gridsome-complete-guide</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/blog/tags/docusaurus</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/blog/tags/installation</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/blog/tags/developpement</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/blog/tags/mac</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/blog/tags/tutoriel</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/blog/tags/latex</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/blog/tags/python</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/blog/tags/seo</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/blog/tags/gridsome</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/blog/tags/tutorial</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/blog/2019/11/01/gridsome-tailwindcss</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/blog/tags/tailwind-css</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/blog/2019/11/01/security-headers</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/blog/tags/security</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/blog/2019/10/12/python-matplotlib-csv</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/blog/tags/matplotlib</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/blog/2019/10/04/30-astuces-python-rapides-%C3%A0-apprendre</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/blog/python-django-pwa</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/blog/tags/pwa</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/blog/tags/django</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/blog/page/2</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/blog/tags</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/blog/welcome</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/blog/tags/facebook</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/blog/tags/hello</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/blog/hello-world</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/blog/hola</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/blog/tags/hola</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/blog/python-create-game</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/blog/2019/01/26/vue-ecosystem-tools</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/blog/tags/nuxt</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/blog/tags/vuepress</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/blog/tags/vue</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/blog/post-1</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/blog/tags/programming</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/blog/2019/06/27/_continuous-deployment-with-vuepress-travis-ci-and-firebase-hosting</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/blog/2019/06/26/_cloudinary</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/blog/tags/web</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/blog/tags/cloud</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/blog/tags/ressources</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/blog/tags/images</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/blog/tags/cloudinary</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/blog/tags</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/blog/welcome</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/blog/tags/facebook</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/blog/tags/hello</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/blog/hello-world</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/blog/hola</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/blog/tags/hola</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/blog/python-create-game</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/blog/2019/01/26/vue-ecosystem-tools</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/blog/tags/nuxt</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/blog/tags/vuepress</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/blog/tags/vue</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/blog/post-1</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/blog/tags/programming</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/blog/2019/06/27/_continuous-deployment-with-vuepress-travis-ci-and-firebase-hosting</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/blog/2019/06/26/_cloudinary</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/blog/tags/web</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/blog/tags/cloud</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/blog/tags/ressources</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/blog/tags/images</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://davidcouronne.vercel.app/en/blog/tags/cloudinary</loc>
+  <lastmod>2021-05-19T16:42:45+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+
+
+</urlset>
