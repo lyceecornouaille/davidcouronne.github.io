@@ -17,7 +17,7 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'davidcouronne', // Usually your GitHub org/user name.
   projectName: 'davidcouronne.github.io', // Usually your repo name.
-  plugins: [require.resolve('docusaurus-lunr-search')],
+
   themeConfig: {
     prism: {
       theme: require('prism-react-renderer/themes/nightOwlLight'),
