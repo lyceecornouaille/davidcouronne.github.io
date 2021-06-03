@@ -24,6 +24,7 @@ module.exports = {
       darkTheme: require('prism-react-renderer/themes/dracula'),
     },
     navbar: {
+      hideOnScroll: true,
       title: 'Mon Site',
       logo: {
         alt: 'My Site Logo',
@@ -41,10 +42,6 @@ module.exports = {
           href: 'https://github.com/DavidCouronne/davidcouronne.github.io',
           label: 'GitHub',
           position: 'right',
-        },
-        {
-          type: 'localeDropdown',
-          position: 'left',
         },
       ],
     },
