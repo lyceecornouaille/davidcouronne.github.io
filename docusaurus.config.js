@@ -20,8 +20,9 @@ module.exports = {
 
   themeConfig: {
     prism: {
-      theme: require('prism-react-renderer/themes/nightOwlLight'),
-      darkTheme: require('prism-react-renderer/themes/dracula'),
+      // theme: require('prism-react-renderer/themes/nightOwlLight'),
+      // darkTheme: require('prism-react-renderer/themes/dracula'),
+      theme: require('prism-react-renderer/themes/dracula'),
     },
     navbar: {
       hideOnScroll: true,
@@ -112,7 +113,7 @@ module.exports = {
   plugins: [
     // ... Your other plugins.
     [
-      require.resolve("@easyops-cn/docusaurus-search-local"),
+      require.resolve('@easyops-cn/docusaurus-search-local'),
       {
         // ... Your options.
         // `hashed` is recommended as long-term-cache of index file is possible.
