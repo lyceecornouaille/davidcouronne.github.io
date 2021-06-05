@@ -4,6 +4,9 @@ description: Comment installer et paramétrer docusaurus v2
 tags: [docusaurus, installation, développement]
 ---
 
+import Tabs from '@theme/Tabs'
+import TabItem from '@theme/TabItem'
+
 Dans cet article, nous allons voir comment installer et paramétrer docusaurus v2.
 
 <!--truncate-->
@@ -14,23 +17,43 @@ Dans cet article, nous allons voir comment installer et paramétrer docusaurus v
 npx @docusaurus/init@latest init my-website classic
 ```
 
-Ensuite un peu de nettoyage:
-
-Dans le dossier `./my-website`, supprimer le dossier `node_module` puis excécuter la commaande:
-
-```bash
-pnpm install
-```
-
 ## Localisation: changer la langue
 
 Nous allons ajouter le support i18n pour la langue française.
 
 Dans un premier temps, nous allons écrire les traductions anglaises de manière automatique:
 
+<Tabs
+  defaultValue="npm"
+  values={[
+    { label: 'npm', value: 'npm', },
+    { label: 'Yarn', value: 'yarn', },
+    { label: 'pnpm', value: 'pnpm', },
+  ]
+}>
+<TabItem value="npm">
+
 ```bash
-pnpm write-translations
+npm run write-translations
 ```
+
+</TabItem>
+<TabItem value="yarn">
+
+```bash
+yarn write-translations
+```
+
+</TabItem>
+<TabItem value="pnpm">
+
+```bash
+pnpm run write-translations
+```
+
+</TabItem>
+
+</Tabs>
 
 Cela va nous créer un dossier `i18n` ainsi que le sous-dossier `en`.
 
