@@ -18,6 +18,9 @@
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --ifm-code-font-size: 95%;
+  --ifm-color-info: rgba(25,118,210,.05);
+  --ifm-alert-color: rgba(0,0,0,.87);
+  
 }
 
 .docusaurus-highlight-code-line {
@@ -27,6 +30,12 @@
   padding: 0 var(--ifm-pre-padding);
 }
 
+
 html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+html[data-theme='dark'] {
+  --ifm-color-info: rgba(25,118,210,.1);
+  --ifm-alert-color: #fff;
 }
