@@ -32,10 +32,11 @@
 
 
 html[data-theme='dark'] .docusaurus-highlight-code-line {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: hsla(0, 0%, 0%, 0.3);
 }
 
 html[data-theme='dark'] {
-  --ifm-color-info: rgba(25,118,210,.1);
-  --ifm-alert-color: #fff;
+  --ifm-color-info: hsla(210, 79%, 46%, 0.1);
+  --ifm-alert-color: hsl(0, 0%, 100%);
+  --ifm-blockquote-color: hsl(0, 0%, 100%);
 }
