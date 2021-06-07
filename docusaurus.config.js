@@ -110,6 +110,7 @@ module.exports = {
       },
     ],
   ],
+  themes: ['@docusaurus/theme-live-codeblock'],
   plugins: [
     // ... Your other plugins.
     [
