@@ -50,7 +50,8 @@ article {
 
 - **em** : relatif à la taille du texte du _parent_. 16px \* 2em = 32px
 - **rem** : relatif à la taille du texte de la _racine_ (root).
-  :::
+
+:::
 
 | Unit | Relative to                                                                                                                                                       |
 | ---- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
