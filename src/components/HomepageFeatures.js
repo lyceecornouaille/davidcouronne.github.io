@@ -6,29 +6,17 @@ const FeatureList = [
   {
     title: 'SNT',
     Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
-      <>
-        Sciences Numériques et Technologies en classe de seconde.
-      </>
-    ),
+    description: <>Sciences Numériques et Technologies en classe de seconde.</>,
   },
   {
     title: 'NSI Premières',
     Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        Spécialité NSI en classe de Première.
-      </>
-    ),
+    description: <>Spécialité NSI en classe de Première.</>,
   },
   {
     title: 'NSI Terminales',
     Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Spécialité NSI en classe de Terminale.
-      </>
-    ),
+    description: <>Spécialité NSI en classe de Terminale.</>,
   },
 ]
 

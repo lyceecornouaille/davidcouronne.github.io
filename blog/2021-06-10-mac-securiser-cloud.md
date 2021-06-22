@@ -2,6 +2,7 @@
 title: Comment sécuriser ses fichiers sur le cloud avec un Mac
 description: Apprenez comment sécuriser vos fichier dans le cloud
 tags: [sécurité, mac]
+author: David Couronné
 ---
 
 ## Pourquoi crypter ses fichiers ?
@@ -35,7 +36,7 @@ de services de stockage et de sauvegarde dans le cloud est la sécurité :
 
 - comment savez-vous que vos fichiers seront en sécurité ?
 - que se passe-t-il lorsque les autorités se présentent
-dans les bureaux de votre fournisseur avec un mandat ?
+  dans les bureaux de votre fournisseur avec un mandat ?
 
 Bien que ces questions ne soient peut-être pas une priorité pour tout le monde,
 il y a une réponse simple : utilisez un service cloud à "connaissance nulle", le "Zero-Knowledge".
@@ -46,8 +47,9 @@ pas même le service avec lequel vous stockez vos fichiers.
 Également connu sous le nom de cryptage privé (private encryption),
 c'est le moyen ultime de préserver la confidentialité de vos données,
 même s'il présente quelques inconvénients :
+
 - le plus important d'entre eux est que si vous perdez votre mot de passe,
-vos fichiers disparaîtront pour toujours...
+  vos fichiers disparaîtront pour toujours...
 - un autre inconvénient est que l'on ne peut pas facilement partager un fichier crypté...
 
 Il existe quelques fournisseurs de cloud qui proposent le Zero-Knowledge,
@@ -55,18 +57,17 @@ mais ici nous allons opter pour un mix entre un cloud "classique", comme Google 
 avec un logiciel de cryptage comme Cryptomator.
 
 Avantages de Cryptomator:
+
 - Fonctionne sans compte ni inscription: pas de données à fournisseurs
 - Open Source
 - Gratuit
-- Les fichiers sont cryptés avec AES avec une longueur de clé de 256 bits. 
-Selon le site Web, le mot de passe est protégé par une fonction de dérivation de clé basée sur un mot de passe et les structures de chemin sont obscurcies. 
-Un bref aperçu technique peut être trouvé sur les pages d'aide [docs.cryptomator](https://docs.cryptomator.org/en/latest/).
+- Les fichiers sont cryptés avec AES avec une longueur de clé de 256 bits.
+  Selon le site Web, le mot de passe est protégé par une fonction de dérivation de clé basée sur un mot de passe et les structures de chemin sont obscurcies.
+  Un bref aperçu technique peut être trouvé sur les pages d'aide [docs.cryptomator](https://docs.cryptomator.org/en/latest/).
 
 ## Installer Cryptomator sur Mac
 
-
 Nous allons utiliser le gestionnaire de packages [Homebrew](https://brew.sh).
-
 
 ```bash
 brew install macfuse
@@ -84,9 +85,6 @@ Lors de la création du premier coffre, vous aurez sûrement des messages de sé
 
 Il est conseillé de tester un peu les fonctionnalités et les différentes options avant
 de commencer à crypter des documents important !
-
-
-
 
 [![Licence Creative Commons](https://i.creativecommons.org/l/by/2.0/fr/88x31.png)](http://creativecommons.org/licenses/by/2.0/fr/)
 

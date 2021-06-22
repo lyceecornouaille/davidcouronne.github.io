@@ -2,6 +2,7 @@
 title: '3 astuces CSS qui changent la vie'
 description: Apprenez 3 trucs et astuces CSS géniaux
 tags: [css, astuces, développement]
+author: David Couronné
 ---
 
 # 3 astuces CSS qui changent la vie
@@ -49,7 +50,7 @@ article {
 
 - **em** : relatif à la taille du texte du _parent_. 16px \* 2em = 32px
 - **rem** : relatif à la taille du texte de la _racine_ (root).
-:::
+  :::
 
 | Unit | Relative to                                                                                                                                                       |
 | ---- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -67,7 +68,6 @@ Vous trouverez plus d'informations en consultant [https://developer.mozilla.org/
 
 ## L'astuce du dimensionnement avec ch
 
-
 :::info
 ch: character width
 
@@ -81,7 +81,7 @@ ch: The advance measure (width) of the glyph "0" of the element's font.
 </div>
 
 > " Anything from 45 to 75 characters is widely regarded as a satisfactory
-lengh of line for a single-column page set in a serifed text  face in a text size. "
+> lengh of line for a single-column page set in a serifed text face in a text size. "
 
 Autrement dit: un longueur de ligne comprise en 45 à 75 caractères est satisfaisante 👍
 
@@ -89,10 +89,9 @@ La traduction en CSS, pour dimensionner un paragraphe par exemple, peut être:
 
 ```css
 p {
-    width: clamp(45ch, 50%, 75ch);
+  width: clamp(45ch, 50%, 75ch);
 }
 ```
-
 
 ## L'astuce des couleurs hsl
 
@@ -103,40 +102,38 @@ hsl: Hue Saturation Lightness
 
 :::
 
-
-
 ```css
 /* rgb */
 p {
-    color: rgb(100, 23, 20);
+  color: rgb(100, 23, 20);
 }
 
 /* hex */
 p {
-    color: #ff0022;
+  color: #ff0022;
 }
 /* hsl */
 p {
-    color: hsl(75, 50%, 50%);
+  color: hsl(75, 50%, 50%);
 }
 ```
 
-En utilisant les couleurs hsl, vous avez un contrôle fin sur le contraste, 
+En utilisant les couleurs hsl, vous avez un contrôle fin sur le contraste,
 et pouvez créer facilement une palette de couleurs cohérente.
 
 Par exemple:
 
 ```css
 .hue25 {
-    background: hsl(25, 50%, 50%);
+  background: hsl(25, 50%, 50%);
 }
 
 .hue50 {
-    background: hsl(50, 50%, 50%);
+  background: hsl(50, 50%, 50%);
 }
 
 .hue75 {
-    background: hsl(75, 50%, 50%);
+  background: hsl(75, 50%, 50%);
 }
 ```
 
@@ -144,30 +141,26 @@ Par exemple:
 <p style={{backgroundColor: "hsl(50, 50%, 50%)", color: "black"}}>HUE 50 </p>
 <p style={{backgroundColor: "hsl(75, 50%, 50%)", color: "black"}}>HUE 75 </p>
 
-
-Vous puvez tester dans l'éditeur ci-dessous en changeant les valeurs:
+Vous pouvez tester dans l'éditeur ci-dessous en changeant les valeurs:
 
 ```jsx live
-<p style={{
-    backgroundColor: "hsl(50, 50%, 50%)", 
-    color: "hsl(0, 0%, 0%)"
-    }}>
-    Test HSL.
+<p
+  style={{
+    backgroundColor: 'hsl(50, 50%, 50%)',
+    color: 'hsl(0, 0%, 0%)',
+  }}
+>
+  Test HSL.
 </p>
 ```
 
-
 ## L'astuce du scroll-padding-top
-
 
 Cette astuce permet de définir la hauteur de scroll d'une page, et éviter que
 certains liens "disparaissent" sous une barre de navigation par exemple.
 
-
 ```css
 article {
-    scroll-padding: 1rem 0 0 0;
+  scroll-padding: 1rem 0 0 0;
 }
 ```
-
-

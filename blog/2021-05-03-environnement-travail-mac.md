@@ -2,9 +2,9 @@
 title: Environnement de travail sur Mac
 author: David Couronné
 tags: [mac, tutoriel, latex, python]
-image: https://res.cloudinary.com/dpw19qolx/image/upload/t_cover-image/v1620487810/christopher-gower-m_HRfLhgABo-unsplash.jpg
+image: covers/christopher-gower-m_HRfLhgABo-unsplash.jpg
 description: Article sur HomeBrew
-keywords: hop
+keywords: [homebrew, mac]
 ---
 
 ![Ordinateur Mac](https://res.cloudinary.com/dpw19qolx/image/upload/t_cover-image/v1620487810/christopher-gower-m_HRfLhgABo-unsplash.jpg)

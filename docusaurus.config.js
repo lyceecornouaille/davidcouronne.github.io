@@ -8,7 +8,7 @@ module.exports = {
     defaultLocale: 'fr',
     locales: ['en', 'fr'],
   },
-  title: 'Mon Site',
+  title: 'NSI-SNT',
   tagline: 'Dinosaurs are cool',
   url: 'https://davidcouronne.vercel.app/',
   baseUrl: '/',
@@ -26,7 +26,7 @@ module.exports = {
     },
     navbar: {
       hideOnScroll: true,
-      title: 'Mon Site',
+      title: 'NSI-SNT',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -81,7 +81,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} NSI-SNT, Inc. Built with Docusaurus.`,
     },
   },
   presets: [

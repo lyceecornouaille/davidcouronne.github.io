@@ -1,12 +1,12 @@
 ---
-author: davidcouronne
+author: David Couronné
 date: 2019-10-12
 post: true
 title: Python Mathplotlib CSV
 description: Comment utiliser matplotlib pour visualiser des .cvs
 category: dev
 tags: [python, matplotlib]
-image: https://res.cloudinary.com/dpw19qolx/image/upload/t_cover-image/v1570878570/tamara-gore-cmsv5KUP2Ew-unsplash.jpg
+image: covers/tamara-gore-cmsv5KUP2Ew-unsplash.jpg
 ---
 
 ![](https://res.cloudinary.com/dpw19qolx/image/upload/t_cover-image/v1570878570/tamara-gore-cmsv5KUP2Ew-unsplash.jpg)

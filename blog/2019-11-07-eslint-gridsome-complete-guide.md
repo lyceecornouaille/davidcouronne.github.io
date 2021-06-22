@@ -6,7 +6,7 @@ tags: [Gridsome, Tutorial]
 series: false
 canonical_url: false
 description: 'A step-by-step guide to install and configure Eslint and Prettier with Grisome'
-image: https://res.cloudinary.com/dpw19qolx/image/upload/t_cover-image/v1572706812/khachik-simonian-nXOB-wh4Oyc-unsplash.jpg
+image: covers/khachik-simonian-nXOB-wh4Oyc-unsplash.jpg
 category: dev
 cover_image_caption: Photo by Khachik Simonian on Unsplash
 author: davidcouronne

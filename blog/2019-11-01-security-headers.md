@@ -6,7 +6,7 @@ author: 'David Couronné'
 tags: ['Security']
 canonical_url: false
 description: 'Improve security headers'
-image: https://res.cloudinary.com/dpw19qolx/image/upload/t_cover-image/v1572590743/bernard-hermant-IhcSHrZXFs4-unsplash.jpg
+image: covers/bernard-hermant-IhcSHrZXFs4-unsplash.jpg
 ---
 
 ![](https://res.cloudinary.com/dpw19qolx/image/upload/t_cover-image/v1572590743/bernard-hermant-IhcSHrZXFs4-unsplash.jpg)

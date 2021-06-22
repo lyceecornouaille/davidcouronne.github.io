@@ -3,14 +3,14 @@ title: Cloudinary
 description: Automate images  imports
 author: David Couronné
 date: 2019-06-26
-post: true
+draft: true
 tags:
   - web
   - cloud
   - ressources
   - images
   - cloudinary
-image: https://res.cloudinary.com/dpw19qolx/image/upload/t_cover-image/v1561523334/St_Michael_27s_Mount_II5302_x_2982.jpg
+image: covers/St_Michael_27s_Mount_II5302_x_2982.jpg
 ---
 
 ![](https://res.cloudinary.com/dpw19qolx/image/upload/t_cover-image/v1561523334/St_Michael_27s_Mount_II5302_x_2982.jpg)

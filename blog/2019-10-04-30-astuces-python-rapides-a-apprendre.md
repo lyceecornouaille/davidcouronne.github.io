@@ -1,5 +1,5 @@
 ---
-author: davidcouronne
+author: David Couronné
 date: 2019-10-04
 post: true
 category: dev
@@ -7,7 +7,7 @@ title: Astuces Python rapides à apprendre
 description: Dans cet article, nous allons voir brièvement quelques extraits de code
   abrégés que vous pouvez comprendre et apprendre en 30 secondes ou moins.
 tags: [python]
-image: https://res.cloudinary.com/dpw19qolx/image/upload/t_cover-image/v1561523334/St_Michael_27s_Mount_II5302_x_2982.jpg
+image: covers/St_Michael_27s_Mount_II5302_x_2982.jpg
 ---
 
 ![](https://res.cloudinary.com/dpw19qolx/image/upload/t_cover-image/v1561523334/St_Michael_27s_Mount_II5302_x_2982.jpg)

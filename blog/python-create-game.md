@@ -1,6 +1,6 @@
 ---
 title: Débuter en Python en créant un jeu - Partie 1
-author: [davidcouronne]
+author: David Couronné
 excerpt: 'Apprendre Python en créant un jeu. Commençons par les variables'
 date: 2019-05-25
 tags: ['Python', 'Tutoriel']

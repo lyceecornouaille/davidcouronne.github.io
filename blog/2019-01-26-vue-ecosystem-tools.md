@@ -9,7 +9,6 @@ tags:
   - nuxt
   - vuepress
   - vue
-image: ''
 sidebar: auto
 ---
 

@@ -2,6 +2,7 @@
 title: 'Installer docusaurus: le guide complet'
 description: Comment installer et paramétrer docusaurus v2
 tags: [docusaurus, installation, développement]
+author: David Couronné
 ---
 
 import Tabs from '@theme/Tabs'
@@ -24,12 +25,12 @@ Nous allons ajouter le support i18n pour la langue française.
 Dans un premier temps, nous allons écrire les traductions anglaises de manière automatique:
 
 <Tabs
-  defaultValue="npm"
-  values={[
-    { label: 'npm', value: 'npm', },
-    { label: 'Yarn', value: 'yarn', },
-    { label: 'pnpm', value: 'pnpm', },
-  ]
+defaultValue="npm"
+values={[
+{ label: 'npm', value: 'npm', },
+{ label: 'Yarn', value: 'yarn', },
+{ label: 'pnpm', value: 'pnpm', },
+]
 }>
 <TabItem value="npm">
 
