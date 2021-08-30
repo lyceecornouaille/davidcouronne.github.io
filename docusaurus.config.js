@@ -19,6 +19,7 @@ module.exports = {
   projectName: 'davidcouronne.github.io', // Usually your repo name.
 
   themeConfig: {
+    hideableSidebar: true,
     prism: {
       // theme: require('prism-react-renderer/themes/nightOwlLight'),
       // darkTheme: require('prism-react-renderer/themes/dracula'),
