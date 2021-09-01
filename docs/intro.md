@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # Tutorial Intro
 
+[![](https://cdn.statcdn.com/Infographic/images/normal/15784.jpeg)](https://fr.statista.com/infographie/15784/projets-de-cables-de-telecommunications-sous-marins-realises-par-les-gafam/)
+
 Let's discover **Docusaurus in less than 5 minutes**.
 
 ## Getting Started
