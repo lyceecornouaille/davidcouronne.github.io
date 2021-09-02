@@ -35,9 +35,21 @@ module.exports = {
       items: [
         {
           type: 'doc',
-          docId: 'intro',
+          docId: 'snt/programme',
           position: 'left',
-          label: 'Tutorial',
+          label: 'SNT',
+        },
+        {
+          type: 'doc',
+          docId: 'nsi-1ere/intro',
+          position: 'left',
+          label: 'NSI 1ère',
+        },
+        {
+          type: 'doc',
+          docId: 'nsi-term/intro',
+          position: 'left',
+          label: 'NSI Term',
         },
         { to: '/blog', label: 'Blog', position: 'left' },
         {
@@ -54,8 +66,8 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'SNT',
+              to: '/docs/snt/programme',
             },
           ],
         },
