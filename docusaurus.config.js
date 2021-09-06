@@ -53,7 +53,7 @@ module.exports = {
         },
         {
           type: 'doc',
-          docId: 'ressources/cartes',
+          docId: 'divers/cartes',
           position: 'left',
           label: 'Ressources',
         },
