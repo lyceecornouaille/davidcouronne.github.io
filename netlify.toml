@@ -9,11 +9,6 @@
             max-age=31536000;
             includeSubDomains
         '''
-        Content-Security-Policy = '''
-            default-src 'self';
-            style-src 'self' 'unsafe-inline';
-            img-src 'self'
-        '''
         Permissions-Policy = '''
             accelerometer=(none),
             ambient-light-sensor=(none),
