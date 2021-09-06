@@ -51,6 +51,12 @@ module.exports = {
           position: 'left',
           label: 'NSI Term',
         },
+        {
+          type: 'doc',
+          docId: 'ressources/cartes',
+          position: 'left',
+          label: 'Ressources',
+        },
         { to: '/blog', label: 'Blog', position: 'left' },
         {
           href: 'https://github.com/DavidCouronne/davidcouronne.github.io',

@@ -14,13 +14,13 @@ const FeatureList = [
     title: 'NSI Premières',
     Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
     description: <>Spécialité NSI en classe de Première.</>,
-    link: '/docs/snt/programme',
+    link: '/docs/nsi-1ere/intro',
   },
   {
     title: 'NSI Terminales',
     Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
     description: <>Spécialité NSI en classe de Terminale.</>,
-    link: '/docs/snt/programme',
+    link: '/docs/nsi-term/intro',
   },
 ]
 
