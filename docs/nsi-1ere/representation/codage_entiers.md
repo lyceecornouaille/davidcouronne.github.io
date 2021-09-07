@@ -52,7 +52,8 @@ Le nombre maximal qu'on puisse coder est `11111111`. C'est l'entier naturel 255.
 - Le plus grand entier positif que l'on peut représenter est $2^{n}-1$.
 
 - Pour évaluer le nombres de bits minimum nécessaires pour l'écriture binaire d'un entier positifn il faut trouver la plus petite puissance de 2 qui soit strictement supérieure à l'entier à écrire.
-  :::
+
+:::
 
 ## 2. Les nombres entiers en binaire signé
 

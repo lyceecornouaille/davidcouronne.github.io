@@ -5,10 +5,10 @@ sidebar_position: 1
 ---
 
 :::info Capacités attendues
+
 - Écrire un programme récursif.
 - Analyser le fonctionnement d'un programme récursif.
-:::
-
+  :::
 
 ## Principe récursif
 
@@ -31,7 +31,7 @@ Soit $n$ un entier naturel:
 
 - $n+0=n$
 - pour tout $m$ entier naturel, $n+m'=(n+m)'$
-:::
+  :::
 
 Du coup pour monter que $2+2=4$:
 

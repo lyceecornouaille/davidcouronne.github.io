@@ -6,7 +6,7 @@ const katex = require('rehype-katex')
 module.exports = {
   i18n: {
     defaultLocale: 'fr',
-    locales: ['en', 'fr'],
+    locales: ['fr'],
   },
   title: 'NSI-SNT',
   tagline: 'Dinosaurs are cool',
