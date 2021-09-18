@@ -215,10 +215,9 @@ prendra un point en paramètre.
 :::info Liens avec le paradigme objet
 Les classes sont des moules pour fabriquer des objets en série.
 
-L'unique classe `Point` permet de produire des objets points différents (des **instances**). Dans le code un
-objet `point` est associé à la variable `p1` et un autre est associé à la variable `p2`. Ces objets ont des **attributs** qui contiennent des valeurs et des **méthodes** qui sont des fonctions spécifiques aux objets de cette classe.`
+L'unique classe `Point` permet de produire des objets points différents (des **instances**). Dans le code du fichier `geometrieObjet.py`, un objet `point` est associé à la variable `p1` et un autre est associé à la variable `p2`. Ces objets ont des **attributs** qui contiennent des valeurs et des **méthodes** qui sont des fonctions spécifiques aux objets de cette classe.
 
-Par exemple, on ne trace pas de la même façon un point et un cercle. Dans votre code, la méthode `tracer() d'un point doit être différente de `tracer()` d'un cercle.
+Par exemple, on ne trace pas de la même façon un point et un cercle. Dans votre code, la méthode `tracer()` d'un point doit être différente de `tracer()` d'un cercle.
 :::
 
 ## Question 2
