@@ -93,7 +93,8 @@ Ses principales fonctions sont:
 - de définir le format des données
 - d'assurer l'adressage et le routage de ces paquets jusqu'à leur adresse de destination
 - de fragmenter et réassembler les paquets si nécessaire.
-  :::
+
+:::
 
 ### Le protocole TCP
 
