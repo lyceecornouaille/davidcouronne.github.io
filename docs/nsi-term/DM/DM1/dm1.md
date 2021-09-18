@@ -4,17 +4,20 @@ description: Enoncé DM1 Terminale
 sidebar_position: 1
 ---
 
-Ce DM comporte deux exercices.
+Ce DM comporte tros exercices.
 
 Le premier exercice porte sur la récursivité.
 
 Le deuxième exercice porte sur la programmation objet.
 
+Le troisième exercice porte sur la programmation objet et la programmation en général.
+
 :::info A rendre
-Vous devrez rendre deux fichiers:
+Vous devrez rendre trois fichiers:
 
 - `hanoi.py`
 - `geometrieObjet.py`
+- `jeuObjet.py`
 
 :::
 
@@ -24,4 +27,8 @@ L'énoncé se trouve ici: [Tours de Hanoi](hanoi)
 
 ## Exercice géométrie objet
 
-L'enoncé se trouve ici: [Géométrie objet](geometrie)
+L'énoncé se trouve ici: [Géométrie objet](geometrie)
+
+## Exercice jeu objet
+
+L'énoncé se trouve ici: [Jeu objet](jeu-objet)
