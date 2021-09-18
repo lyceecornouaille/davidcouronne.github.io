@@ -19,6 +19,12 @@ Vous devrez rendre trois fichiers:
 - `geometrieObjet.py`
 - `jeuObjet.py`
 
+
+Sur Pronote on ne peut rendre qu'un seul fichier !
+
+Il faudra donc les mettre dans un dossier compressé.
+
+A voir ici par exemple: https://www.youtube.com/watch?v=6HylLLHihA0
 :::
 
 ## Exercice Tours de Hanoi
