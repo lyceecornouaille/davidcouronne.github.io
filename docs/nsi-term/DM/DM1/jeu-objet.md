@@ -231,7 +231,7 @@ Votre personnage a comme niveau d'expérience 0.
 Vous commencez avec un bâton de marche de masse 0.5 que vous pouvez tenir à 1 main.
 ```
 
-## Sytème de ju
+## Sytème de jeu
 
 
 On souhaite maintenant avoir un système de jeu rudimentaire.
