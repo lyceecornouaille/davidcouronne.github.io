@@ -160,7 +160,7 @@ def showDrawing():
 Dans le même dossier que `graphNSI.py` créez le fichier `geometrieObjet.py` puis y coller le code suivant:
 
 ```python
-# graphNSI.py
+# geometrieObjet.py
 import math
 import graphNSI as gd
 
