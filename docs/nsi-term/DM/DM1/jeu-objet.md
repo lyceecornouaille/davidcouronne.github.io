@@ -159,8 +159,9 @@ Pour cela, on considère que le personnage possède un nouvel attribut, nommé `
 On veut désormais que tout personnage nouvellement créé commence avec un seul outil : un simple bâton de marche, de masse 0.5 kg et que l'on peut tenir à une seule main.
 
 - Modifiez comme le script de la méthode `__init__` pour ajouter:
+
 ```python
-self.objet = Outil(1, 0, 0.5)    # Une main, expérience requise 0, poids 0,5 kg 
+self.objet = Outil(1, 0, 0.5)    # Une main, expérience requise 0, poids 0,5 kg
 ```
 
 - On désire maintenant obtenir un accesseur pour ce nouvel attribut objet. On veut qu'il nous renvoie la masse et le nombre de mains nécessaires à son utilisation.
@@ -233,7 +234,6 @@ Vous commencez avec un bâton de marche de masse 0.5 que vous pouvez tenir à 1 
 
 ## Sytème de jeu
 
-
 On souhaite maintenant avoir un système de jeu rudimentaire.
 
 - A chaque tour, on peut choisir entre partir à la rencontre de quelqu'un, ou fouiller les environs pour trouver un outil.
@@ -260,6 +260,4 @@ F
 "Nouvel objet"
 ```
 
-
-
-
+Implémentez tout ça, et si vous le souhaitez (optionnel), améliorez le jeu.

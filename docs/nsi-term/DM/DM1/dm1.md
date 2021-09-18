@@ -19,7 +19,6 @@ Vous devrez rendre trois fichiers:
 - `geometrieObjet.py`
 - `jeuObjet.py`
 
-
 Sur Pronote on ne peut rendre qu'un seul fichier !
 
 Il faudra donc les mettre dans un dossier compressé.
