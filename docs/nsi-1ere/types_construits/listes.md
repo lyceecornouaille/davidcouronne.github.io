@@ -184,10 +184,20 @@ jours[3:] # ['jeudi', 'vendredi', 'samedi', 'dimanche']
 jours[:-1] # ['lundi', 'mardi', 'mercredi', 'jeudi', 'vendredi', 'samedi']
 ```
 
+:::tip Astuce
+Dans le cas du slicing, il n'y a pas d'erreur d'indexation. Par exemple:
+
+```python
+lst = [1, 2, 3]
+lst[2021:] # []
+```
+
+:::
+
 ## Liste en compréhension
 
-:::tip
-Il est possible et élégant de construire une liste en compréhension avec le langage Python. C'est très pratique pour créer, transdormer ou filtrer une liste.
+:::tip Info
+Il est possible et élégant de construire une liste en compréhension avec le langage Python. C'est très pratique pour créer, transformer ou filtrer une liste.
 :::
 
 Exemples:
