@@ -4,7 +4,7 @@ description: Enoncé DM1 Terminale
 sidebar_position: 1
 ---
 
-Ce DM se comporte de deux exercices.
+Ce DM  comporte  deux exercices.
 
 Le premier exercice porte sur la récursivité.
 
