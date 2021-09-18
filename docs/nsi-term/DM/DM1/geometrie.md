@@ -264,7 +264,7 @@ Une des principales élégances du modèle objet est l'**encapsulation** : on re
 Dans cet exercice,
 on peut appliquer une même opération (ici une translation) à des objets différents (points, rectangles,
 cercles, combinaison) sans avoir besoin de connaître leur type précis dans le code. Ainsi, on peut écrire
-p.translation(...) sans savoir quel sera le type de p.
+`p.translation(-2, 4)` sans savoir quel sera le type de `p`.
 
 Ceci est un exemple du principe d'**abstraction**, un autre pilier du paradigme objet. Avant de démarrer un développement, on peut imposer ce **principe d'abstraction** en définissant une **interface**, mais c'est une autre histoire ...
 :::

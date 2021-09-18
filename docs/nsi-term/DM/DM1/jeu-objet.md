@@ -158,7 +158,7 @@ Pour cela, on considère que le personnage possède un nouvel attribut, nommé `
 
 On veut désormais que tout personnage nouvellement créé commence avec un seul outil : un simple bâton de marche, de masse 0.5 kg et que l'on peut tenir à une seule main.
 
-- Modifiez comme le script de la méthode `__init__` pour ajouter:
+- Modifiez le script de la méthode `__init__` pour ajouter:
 
 ```python
 self.objet = Outil(1, 0, 0.5)    # Une main, expérience requise 0, poids 0,5 kg
