@@ -20,4 +20,8 @@ Vous devrez rendre deux fichiers:
 
 ## Exercice Tours de Hanoi
 
-L'énoncé de trouve ici: [Tours de Hanoi](hanoi)
+L'énoncé se trouve ici: [Tours de Hanoi](hanoi)
+
+## Exercice géométrie objet
+
+L'enoncé se trouve ici: [Géométrie objet](geometrie)
