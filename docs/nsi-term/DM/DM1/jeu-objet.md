@@ -42,6 +42,8 @@ Elsa = Personnage('feminin',42)
 
 Les personnages du jeu vidéo géreront des outils au cours de leur aventure. Ces outils possèdent différents attributs :
 
+- un nom (par exemple un tournevis)
+
 - un niveau d'expérience minimal du personnage pour qu'il puisse le manipuler (codé sous forme d'un nombre entier),
 
 - une masse (le personnage ne peut pas porter trop de charge) (codé sous forme d'un flottant),
@@ -50,11 +52,23 @@ Les personnages du jeu vidéo géreront des outils au cours de leur aventure. Ce
 
 Définissez une nouvelle classe nommée Outil.
 
-Créez le constructeur de cette classe permettant de définir les trois attributs cités pour un outil. Par défaut, le constructeur initialise à 1 le nombre de mains nécessaires pour l'utilisation d'un objet.
+Créez le constructeur de cette classe permettant de définir les quatre attributs cités pour un outil. Par défaut, le constructeur initialise à 1 le nombre de mains nécessaires pour l'utilisation d'un objet.
 
 Créez deux outils au choix dont un nécessite plus d'une main.
 
-Pour chacun de vos outils, vérifiez la valeur de l'attribut correspondant au nombre de main.
+Pour chacun de vos outils, vérifiez la valeur de l'attribut correspondant au nombre de main(s).
+
+Exemple:
+
+```python
+# Une faux s'utilise à deux mains et pèse environ 900 g (0,9 kg)
+# Ici on la définit avec une expérience minimale de 50
+outil1 = Outil("faux", 0.9, 50, 2)
+outil1.nom # faux
+outil1.masse # 0.9
+outil1.xp_mini # 50
+outil1.mains # 2
+```
 
 ## Les accesseurs
 
@@ -99,11 +113,11 @@ Grumpf.get_experience() # 51
 ```python
 # Une faux s'utilise à deux mains et pèse environ 900 g (0,9 kg)
 # Ici on la définit avec une expérience minimale de 50
-Faux = Outil(2, 50, 0.9)
-Faux.set_mains()
-Faux.get_mains() # 1
-Faux.set_mains()
-Faux.get_mains() # Toujours 1 !
+outil1 = Outil("faux", 0.9, 50, 2)
+outil1.set_mains()
+outil1.get_mains() # 1
+outil1.set_mains()
+outil1.get_mains() # Toujours 1 !
 ```
 
 ## Gain d'expérience
@@ -150,45 +164,64 @@ def __str__(self):
 
 - Si on crée un personnage `Alex = Personnage("masculin", 14)`, on souhaite que `print(Alex)`affiche `Personnage de genre masculin et de niveau d'expérience 14`. Dans la classe `Personnage`, créer la méthode `__str__` permettant l'affichage voulu.
 
+```python
+Alex = Personnage("masculin", 14)
+print(Alex)
+# Personnage de genre masculin et de niveau d'expérience 14
+```
+
 ## Personnage avec outil
 
-On souhaite que chaque personnage puisse avoir un objet en main, unique pour simplifier pour l'instant.
+On souhaite que chaque personnage puisse avoir des outils dans son inventaire.
 
-Pour cela, on considère que le personnage possède un nouvel attribut, nommé `objet`, qui correspond à l'outil en main.
+Pour cela, on considère que le personnage possède un nouvel attribut, nommé `inventaire`, qui correspond à la liste des outils qu'il possède.
 
 On veut désormais que tout personnage nouvellement créé commence avec un seul outil : un simple bâton de marche, de masse 0.5 kg et que l'on peut tenir à une seule main.
 
 - Modifiez le script de la méthode `__init__` pour ajouter:
 
 ```python
-self.objet = Outil(1, 0, 0.5)    # Une main, expérience requise 0, poids 0,5 kg
+self.inventaire = [Outil("baton de marche", 0.5, 0, 1)]    # nom, poids, xp_mini, main = 1
 ```
 
-- On désire maintenant obtenir un accesseur pour ce nouvel attribut objet. On veut qu'il nous renvoie la masse et le nombre de mains nécessaires à son utilisation.
+- On désire maintenant obtenir un accesseur pour ce nouvel attribut `inventaire`. On veut qu'il nous affiche la liste des outils, de manière lisible, et la masse totale portée.
+
+Par exemple:
 
 ```python
 Frondon = Personnage("masculin")
-Frondon.get_objet() # 1, 0.5
+Frondon.get_inventaire()
 ```
 
-- Vous devez créer une nouvelle méthode, nommée `decouverte` dans la classe `Personnage` qui modélise la découverte d'une nouvel objet par le joueur, objet dont le niveau requis, la masse et la nombre de mains sont donnés comme paramètres de cette méthode.
+Doit afficher
 
-Cette méthode conduira au remplacement de l'outil en main (celui de l'attribut objet) par le nouveau dans le seul cas où le personage possède un niveau d'exprérience suffisant pour cela.
+```
+Inventaire:
+baton de marche: 0.5 kg, 1 main(s)
+Masse totale: 0.5 kg
+```
 
-De plus, deux affichages différents sont attendus dans la console :
+- Vous devez créer une nouvelle méthode, nommée `decouverte` dans la classe `Personnage` qui modélise la découverte d'une nouvel outil par le joueur.
 
-"Nouvel objet" s'il y a eu changement d'outil,
+Cette méthode conduira à l'ajout de l'outil dans l'inventaire dans le seul cas où le personage possède un niveau d'exprérience suffisant pour cela.
 
-"Dommage, il faut encore progresser en niveau" sinon.
+De plus, les affichages suivants sont attendus, par exemple :
 
 ```python
 Frida = Personnage("feminin")
-Frida.decouverte(2, 12, 0.6)
-# Affichage "Dommage, il faut encore progresser en niveau"
-Frida.rencontre() # L'expérience de Frida va dépasser 10
-Frida.decouverte(2, 12, 0.6)
-# Affichage "Nouvel objet"
-Frida.get_objet # 2, 0.6
+Frida.get_inventaire()
+# Inventaire:
+# baton de marche: 0.5 kg, 1 main(s)
+# Masse totale: 0.5 kg
+Frida.decouverte(Outil("faux", 0.9, 50, 2))
+# Vous avez découvert l'outil faux, mais vous n'avez pas assez d'expérience pour le prendre.
+Frida.decouverte(Outil("petite haltère", 2, 0, 1))
+# Vous avez découvert l'outil petite haltère qui a été ajouté à votre inventaire.
+Frida.get_inventaire()
+# Inventaire:
+# baton de marche: 0.5 kg, 1 main(s)
+# petite haltère: 2 kg, 1 main(s)
+# Masse totale: 2.5 kg
 ```
 
 ## Interactivité
@@ -236,28 +269,68 @@ Vous commencez avec un bâton de marche de masse 0.5 que vous pouvez tenir à 1 
 
 On souhaite maintenant avoir un système de jeu rudimentaire.
 
-- A chaque tour, on peut choisir entre partir à la rencontre de quelqu'un, ou fouiller les environs pour trouver un outil.
+- A chaque tour, on peut choisir entre partir à la rencontre de quelqu'un, de fouiller les environs pour trouver un outil ou consulter son inventaire.
 - Quand on part à la rencontre de quelqu'un, on a une chance sur deux de rencontrer effectivement quelqu'un.
-- Quand on fouille à la recherche d'un outil, on trouve toujours un outil, de masse aléatoire entre 100g et 2kg, d'expérience nécessaire aléatoire entre 0 et 100, et de "mains" aléatoire entre 1 et 4.
+- Quand on fouille à la recherche d'un outil, on trouve toujours un outil, pris au hasard dans une liste d'outils pré-établie.
 
-Un exemple:
+Exemple de liste d'outils:
+
+```python
+liste_outils = [Outil("faux", 0.9, 50, 2), Outil("petite haltère", 2, 0, 1)]
+```
+
+:::info
+Votre liste d'outils doit contenir au moins 5 "outils". Vous pouvez y mettre ce que vous voulez (épées, boucliers, ordinateur...). Vous n'êtes pas non plus contraints d'utiliser les outils "faux" et "petite haltère", c'était juste des exemples.
+:::
+
+:::info
+Pour prendre au hasard un élément dans une liste, le module `random` nous offre aussi des fonctions sur les listes.
+
+Par exemple
+
+```python
+from random import *
+ma_liste = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+# Obtenir un élément au hasard
+un_element = choice(ma_liste)
+```
+
+:::
+
+Un exemple de séquence de jeu:
 
 ```
-Voulez-vous (R)echercher quelqu'un ou (F)ouiller les environs ?
+Voulez-vous (R)echercher quelqu'un, (F)ouiller les environs ou consulter votre (I)nventaire ?
 R
 Vous n'avez trouvé personne...
-Voulez-vous (R)echercher quelqu'un ou (F)ouiller les environs ?
+Voulez-vous (R)echercher quelqu'un, (F)ouiller les environs ou consulter votre (I)nventaire ?
 R
 Vous avez rencontré quelqu'un ! Votre expérience est maintenant de 12.
-Voulez-vous (R)echercher quelqu'un ou (F)ouiller les environs ?
+Voulez-vous (R)echercher quelqu'un, (F)ouiller les environs ou consulter votre (I)nventaire ?
 F
-"Dommage, il faut encore progresser en niveau"
-Voulez-vous (R)echercher quelqu'un ou (F)ouiller les environs ?
+Vous avez découvert l'outil faux, mais vous n'avez pas assez d'expérience pour le prendre.
+Voulez-vous (R)echercher quelqu'un, (F)ouiller les environs ou consulter votre (I)nventaire ?
 F
-"Dommage, il faut encore progresser en niveau"
-Voulez-vous (R)echercher quelqu'un ou (F)ouiller les environs ?
-F
-"Nouvel objet"
+Vous avez découvert l'outil petite haltère qui a été ajouté à votre inventaire.
+Voulez-vous (R)echercher quelqu'un, (F)ouiller les environs ou consulter votre (I)nventaire ?
+I
+Inventaire:
+baton de marche: 0.5 kg, 1 main(s)
+petite haltère: 2 kg, 1 main(s)
+Masse totale: 2.5 kg
 ```
 
-Implémentez tout ça, et si vous le souhaitez (optionnel), améliorez le jeu.
+Implémentez tout ça.
+
+## Améliorations (optionnel)
+
+Si vous le souhaitez (optionnel), améliorez le jeu.
+
+Pistes d'amélioration:
+
+- définir une masse maximale pouvant être portée, et donc ne pas pouvoir ajouter un nouvel outil si la masse totale dépasse la masse maximale autorisée.
+- ajouter une option pour se débarrasser d'un objet de son inventaire.
+- ajouter un attribut `nom` dans la classe `Personnage`, puis créer une liste de personnages non joueurs, que l'on peut rencontrer. Par exemple "Vous avez rencontré Grumpf."
+- ce que vous voulez...
+
+Tout cela est optionnel.

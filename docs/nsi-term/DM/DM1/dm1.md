@@ -4,7 +4,7 @@ description: Enoncé DM1 Terminale
 sidebar_position: 1
 ---
 
-Ce DM comporte tros exercices.
+Ce DM comporte trois exercices.
 
 Le premier exercice porte sur la récursivité.
 
@@ -26,14 +26,14 @@ Il faudra donc les mettre dans un dossier compressé.
 A voir ici par exemple: https://www.youtube.com/watch?v=6HylLLHihA0
 :::
 
-## Exercice Tours de Hanoi
+## Exercice Tours de Hanoi (5 points)
 
 L'énoncé se trouve ici: [Tours de Hanoi](hanoi)
 
-## Exercice géométrie objet
+## Exercice géométrie objet (5 points)
 
 L'énoncé se trouve ici: [Géométrie objet](geometrie)
 
-## Exercice jeu objet
+## Exercice jeu objet (10 points)
 
 L'énoncé se trouve ici: [Jeu objet](jeu-objet)
