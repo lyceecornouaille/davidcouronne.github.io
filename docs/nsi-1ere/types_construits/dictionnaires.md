@@ -104,6 +104,7 @@ panier.values()
 ## Exemples d'utilisation
 
 Test d'appartenance d'une clé:
+
 ```python
 panier = {'pomme': 2, 'orange': 2, 'fraise': 3, 'banane': 1}
 
@@ -112,6 +113,7 @@ panier = {'pomme': 2, 'orange': 2, 'fraise': 3, 'banane': 1}
 ```
 
 Affichage formaté:
+
 ```python
 # Affichage des clés et des valeurs
 

@@ -18,7 +18,6 @@ Les termes du p-uplet **ne sont pas modifiables** par affectation.
 Un `tuple`est **non-mutable**
 :::
 
-
 ## Création d'un p-uplet
 
 :::info
@@ -77,6 +76,3 @@ B = (3, 5)
 I = milieu(A, B)
 print(I) # (2.5, 3.0)
 ```
-
-
-

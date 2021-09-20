@@ -53,7 +53,134 @@ Pour s'assurer de la terminaison d'un algorithme récursif, il suffit d'identifi
 Identifier une suite strictement décroissante d'entiers positifs ou nuls permet de prouver qu'un algorithme récursif se termine en un nombre d'appels fini. Si cette suite commence à $n$, il y aura au maximum $n$ appels récursifs.
 :::
 
-Exemple:
+## Récursivité simple
+
+:::info Récursivité simple
+Un appel récursif est dit simple si la fonction ne contient qu'un seul appel récursif à elle-même.
+:::
+
+:::tip Fonction factorielle
+Un exemple classique de récursivité simple est celui de la fonction factorielle définie mathématiquement par :
+
+$$
+n! =\left \{
+\begin{array}{rcl}
+0!&=&1 \\
+n! &= &n \times (n-1)! \text{ si } n \geq 1
+\end{array}
+\right.
+$$
+
+```python
+def factorielle(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorielle(n-1)
+```
+
+:::
+
+## Récursivité imbriquée
+
+:::info récursivité imbriquée
+Un appel récursif est dit imbriqué si l'appel récursif a comme argument un autre appel récursif à la même fonction.
+:::
+
+:::tip fonction de MacCarthy
+Un exemple classique de récursivité imbriquée est celui de la fonction de MacCarthy définie mathématiquement par :
+
+$$
+\left \{
+\begin{array}{rcl}
+f(n)&=&n-10 \text{ si } n>100 \\
+f(n)&=& f(f(n+11)) \text{ si } n \leq 100
+\end{array}
+\right.
+$$
+
+```python
+def carthy(n):
+    if n > 100 :
+        return n - 10
+    else:
+        return carthy(carthy(n+11))
+```
+
+:::
+
+## Récursivité multiple
+
+:::info récursivité multiple
+Un appel récursif est dit multiple si la fonction contient plusieurs appels récursifs à elle-même.
+
+:::
+
+:::tip Suite de Fibonacci
+Un exemple classique de récursivité multiple est celui de la fonction de Fibonacci définie mathématiquement par :
+
+$$
+\left \{
+\begin{array}{rcl}
+f(0)&=&1 \\
+f(1)&=&1 \\
+f(n) &=& f(n-1)+f(n-2) \text{ si } n \geq 2
+\end{array}
+\right.
+$$
+
+```python
+def fibonacci(n):
+    if n < 2:
+        return 1
+    else:
+        return fibonacci(n-1) + fibonacci(n-2)
+```
+
+:::
+
+## Récursivité croisée
+
+:::info récursivité croisée
+Un appel récursif est dit croisé si 2 fonctions récursives s'appellent mutuellement.
+:::
+
+:::tip Fonctions pairs et impairs
+Un exemple classique de récursivité croisée est celui des fonctions de parité $pair$ et $impair$ définies mathématiquement par :
+
+$$
+\left \{
+\begin{array}{rcl}
+pair(0)& = & Vrai \\
+pair(n) &=& impair(n-1) \text{ si } n \geq 1
+\end{array}
+\right.
+$$
+
+$$
+\left \{
+\begin{array}{rcl}
+impair(0) &=& Faux \\
+impair(n) &=& pair(n-1) \text{ si } n \geq 1
+\end{array}
+\right.
+$$
+
+```python
+def pair(n):
+    if n == 0:
+        return True
+    else :
+        return impair(n-1)
+
+def impair(n):
+    if n == 0:
+        return False
+    else:
+        return pair(n-1)
+```
+
+:::
 
 ## Démontrons que 2+2=4
 
