@@ -182,7 +182,7 @@ def impair(n):
 
 :::
 
-## Démontrons que 2+2=4
+<!-- ## Démontrons que 2+2=4
 
 Dans l'ensemble des entiers naturels 0, 1, 2, 3, ... on peut définir le successeur d'un nombre de la façon suivante:
 
@@ -204,8 +204,10 @@ Du coup pour monter que $2+2=4$:
 
 $2+2 = 2+1' = (2+1)' = (2+0')' = ((2+0)')' = ((2)')'=3'=4$
 
-....
+.... -->
 
 ## Liens
 
 http://monlyceenumerique.fr/nsi_terminale/lp/lp2_recursivite.php
+
+https://iriaf.univ-poitiers.fr/enibook/algorithmic/learning/site/html/recursivite-0-index.html
