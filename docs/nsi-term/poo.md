@@ -116,6 +116,7 @@ L'encapsulation est un principe qui consiste à regrouper des données avec un e
 
 :::
 
+## Privé - Public
 :::tip Privé/Public en Python
 En Python, il y a une convention de nommage : un attribut privé est toujours préfixé (c'est-à-dire précédé) de deux espaces soulignés (tiret du bas, celui du 8).
 
