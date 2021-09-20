@@ -68,7 +68,7 @@ panier['banane'] = 5
 print(panier) # {'pomme': 2, 'orange': 2, 'fraise': 3, 'banane': 5}
 ```
 
-:::info Ajoute d'une clé
+:::info Ajout d'une clé
 On peut ajouter une clé dans un dictionnaire
 :::
 
