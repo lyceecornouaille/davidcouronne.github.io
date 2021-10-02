@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: snt-nsi.netlify.app
+Token: 6d50701e60e5b9043341a2f564ded5f9276d09702a13d19b62e2bf8a52189e8d
