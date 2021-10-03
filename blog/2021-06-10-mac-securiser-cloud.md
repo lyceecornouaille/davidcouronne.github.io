@@ -5,12 +5,12 @@ tags: [sécurité, mac]
 author: David Couronné
 ---
 
-## Pourquoi crypter ses fichiers ?
+## Pourquoi chiffrer ses fichiers ?
 
 Les attaques de cybersécurité sont à un niveau record dans le monde.
 
 Pourtant, lorsqu'il s'agit de protéger les données contre toutes
-menaces, il est difficile de battre un logiciel de cryptage.
+menaces, il est difficile de battre un logiciel de chiffrement.
 
 <!--truncate-->
 
@@ -21,10 +21,10 @@ Il est nécessaire d'ajouter plus de couches de sécurité
 à ces services de stockage.
 
 C'est là qu'entrent en jeu des logiciels comme [Cryptomator](https://cryptomator.org) ou [Boxcryptor](https://www.boxcryptor.com/fr/) par exemple.
-Ils ajoutent un cryptage sécurisé à vos données cloud.
+Ils ajoutent un chiffrement sécurisé à vos données cloud.
 
 Ce que Cryptomator et Boxcryptor font,
-c'est qu'ils effectuent un cryptage sur les fichiers,
+c'est qu'ils effectuent un chiffrement sur les fichiers,
 avant qu'ils ne soient envoyés dans le cloud.
 De cette façon, les données du fichier sont en sécurité, quoi qu'il arrive.
 
@@ -44,7 +44,7 @@ il y a une réponse simple : utilisez un service cloud à "connaissance nulle", 
 La connaissance nulle dans ce cas signifie que personne d'autre que vous
 n'a les clés de vos données,
 pas même le service avec lequel vous stockez vos fichiers.
-Également connu sous le nom de cryptage privé (private encryption),
+Également connu sous le nom de chiffrement privé (private encryption),
 c'est le moyen ultime de préserver la confidentialité de vos données,
 même s'il présente quelques inconvénients :
 
@@ -54,14 +54,14 @@ même s'il présente quelques inconvénients :
 
 Il existe quelques fournisseurs de cloud qui proposent le Zero-Knowledge,
 mais ici nous allons opter pour un mix entre un cloud "classique", comme Google Drive ou OneDrive,
-avec un logiciel de cryptage comme Cryptomator.
+avec un logiciel de chiffrement comme Cryptomator.
 
 Avantages de Cryptomator:
 
 - Fonctionne sans compte ni inscription: pas de données à fournisseurs
 - Open Source
 - Gratuit
-- Les fichiers sont cryptés avec AES avec une longueur de clé de 256 bits.
+- Les fichiers sont chiffrés avec AES avec une longueur de clé de 256 bits.
   Selon le site Web, le mot de passe est protégé par une fonction de dérivation de clé basée sur un mot de passe et les structures de chemin sont obscurcies.
   Un bref aperçu technique peut être trouvé sur les pages d'aide [docs.cryptomator](https://docs.cryptomator.org/en/latest/).
 
