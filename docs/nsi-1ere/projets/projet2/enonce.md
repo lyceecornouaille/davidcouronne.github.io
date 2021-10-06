@@ -51,7 +51,7 @@ Comme vous pouvez le constater, la question et la réponse correcte sont sépar�
 
 N.B. : il est tout à fait possible de rédiger vos propres questions et de les placer dans un fichier au format texte.
 
-Votre programme devra "piocher" au hasard 10 questions parmi les 30 questions présentes dans le fichier qcm.txt (à chaque exécution de votre programme, les 10 questions ne seront pas identiques)
+Votre programme devra "piocher" au hasard 10 questions parmi les 30 questions présentes dans le fichier `qcm.txt` (à chaque exécution de votre programme, les 10 questions ne seront pas identiques)
 
 On ne pourra pas avoir 2 fois la même question au cours d'une même session.
 
