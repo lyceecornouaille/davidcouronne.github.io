@@ -36,7 +36,7 @@ Que souhaitez-vous faire ?
 Choix:
 ```
 
-Quand vous choisissez de créer la liste de course, ou d'ouvrir une liste de course existente le programme doit afficher:
+Quand vous choisissez de créer la liste de course, ou d'ouvrir une liste de course existante le programme doit afficher:
 
 ```
 (A)jouter un élément ou (R)evenir au menu principal ?
