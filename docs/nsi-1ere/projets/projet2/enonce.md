@@ -33,7 +33,7 @@ Comment s'appelle cette maladie infectieuse provoquée par le bacille de Koch ? 
 Quel est l'homme d'état créateur de l'Académie Française ? A-Louis IV B-Henry IV C-Le cardinal de Richelieu D-Le cardinal Mazarin;;C
 Quel autre nom donne-t-on aux globules blancs ? A-Leucocytes B-Plaquettes C-Triglycérides D-Hématies;;A
 Sous le règne de quel roi, Colbert fut-il ministre des finances ? A-Louis XIII B-Louis XIV C-Louis XV D-Louis XVI;;B
-OÃ¹ se trouve le siège de l'UNESCO ? A-Londres B-Paris C-New York D-Genève;;B
+Où se trouve le siège de l'UNESCO ? A-Londres B-Paris C-New York D-Genève;;B
 Qui fut la première présidente du Parlement européen ? A-Edith CRESSON B-Simone VEIL C-Margaret THATCHER D-Aucune femme n'a occupé ce poste;;D
 Le saturnisme est une maladie due Ã  une intoxication au A-Plomb B-Fer C-Cuivre D-Aluminium;;A
 Quelle ville française n'est pas située sur le Rhône ? A-Grenoble B-Avignon C-Lyon D-Vienne;;A
@@ -63,3 +63,16 @@ Au cours de ce projet, il vous sera sans doute nécessaire d'étudier les 2 poin
 - la méthode `split` qui permet de séparer en plusieurs morceaux une chaîne de caractères. Rechercher sur Internet son utilisation.
 
 N'oubliez pas d'utiliser le plus possible les fonctions.
+
+Exemple de déroulé:
+
+```
+Où se trouve le siège de l'UNESCO ? A-Londres B-Paris C-New York D-Genève
+Quelle est votre réponse ? B
+Bravo bonne réponse !
+Quel mot désigne l'élevage des oiseaux ? A-L'ostréiculture B-La cuniculture C-L'apiculture D-L'aviculture
+Quelles est votre réponse ? A
+Mauvaise réponse !
+...
+Votre scrore: 4/10
+```
