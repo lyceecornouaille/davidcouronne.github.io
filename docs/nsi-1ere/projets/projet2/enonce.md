@@ -20,8 +20,8 @@ Un octet correspond à  A-1bit B-4 bits C-8 bits D-32 bits;;C
 Avec 1 octet on peut coder A-255 valeurs B-8 valeurs C-16 valeurs D-256 valeurs;;D
 Qu'est ce que Microsoft Windows ? A-Un type d'ordinateur B-Un système d'exploitation C-Un système de gestion de bases de données;;B
 Le système binaire utilise la base A-2 B-10 C-8 D-16 E-Aucune de ces réponses n'est vraie.;;A
-Dans la mythologie gréco-romaine, les dieux se réunissaient sur A-Le mont SinaÃ¯ B-Le Vésuve C-Le mont Olympe;;C
-Dans la mythologie grecque, Pégase est A-Un cheval ailé B-Une homme avec un tÃªte d'aigle C-Un géant;;A
+Dans la mythologie gréco-romaine, les dieux se réunissaient sur A-Le mont Sinaï B-Le Vésuve C-Le mont Olympe;;C
+Dans la mythologie grecque, Pégase est A-Un cheval ailé B-Une homme avec un tête d'aigle C-Un géant;;A
 En quelle année François Mitterrand a-t-il été élu président de la République française ? A-1974 B-1976 C-1981 D-1986;;C
 Quand l'armistice de la seconde guerre mondiale a-t-elle été signée A-Le 8 Mai 1945 B-Le 14 Juillet 1940 C-Le 11 Novembre 1945 D-Le 18 Juin 1940;;A
 Avec quel instrument peut-on ouvrir une porte ? A-Un chevalet B-Une bobine C-Une poignée;;C
