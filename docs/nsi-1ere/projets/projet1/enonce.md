@@ -30,7 +30,6 @@ Le rendu final doit impérativement comporter en début de fichier les noms des 
 
 Vous pouvez bien sûr effectuer des recherches sur Internet pour avancer votre projet. Par contre tout "copier-coller sauvage" sera sanctionné...
 
-
 ## Sujet du projet
 
 Le projet doit pouvoir gérer une liste de course.
@@ -117,7 +116,6 @@ Choix: A
 pomme
 eau
 ```
-
 
 :::danger
 La liste course doit être enregistrée dans le fichier `liste_courses.txt`
