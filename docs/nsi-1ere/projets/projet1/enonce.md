@@ -20,6 +20,14 @@ Ces expérimentations ne sont pas à intégrer dans le fichier final.
 - Gestion des entrées/sorties: [Input et print](entree-sortie)
 - Gestion des fichiers: [Gestion des fichiers](gestion-fichiers)
 
+Le rendu final doit impérativement comporter en début de fichier les noms des membres du groupe, par exempe:
+
+```python
+# Projet 1
+# Dupont Jeanne
+# Durand Rémi
+```
+
 ## Sujet du projet
 
 Le projet doit pouvoir gérer une liste de course.
