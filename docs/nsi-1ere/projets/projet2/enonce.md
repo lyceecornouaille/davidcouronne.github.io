@@ -35,7 +35,7 @@ Quel autre nom donne-t-on aux globules blancs ? A-Leucocytes B-Plaquettes C-Trig
 Sous le règne de quel roi, Colbert fut-il ministre des finances ? A-Louis XIII B-Louis XIV C-Louis XV D-Louis XVI;;B
 Où se trouve le siège de l'UNESCO ? A-Londres B-Paris C-New York D-Genève;;B
 Qui fut la première présidente du Parlement européen ? A-Edith CRESSON B-Simone VEIL C-Margaret THATCHER D-Aucune femme n'a occupé ce poste;;D
-Le saturnisme est une maladie due Ã  une intoxication au A-Plomb B-Fer C-Cuivre D-Aluminium;;A
+Le saturnisme est une maladie due à  une intoxication au A-Plomb B-Fer C-Cuivre D-Aluminium;;A
 Quelle ville française n'est pas située sur le Rhône ? A-Grenoble B-Avignon C-Lyon D-Vienne;;A
 A quelle distance approximative correspond un degré de latitude terrestre ? A-111 km B-62 km C-8 km D-34 km;;A
 Quel département n'est pas frontalier avec l'Italie ? A-Les Alpes-de-Haute-Provence B-Les Hautes-Alpes C-La Haute-Savoie D-Le Vaucluse;;D
