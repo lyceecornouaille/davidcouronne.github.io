@@ -95,7 +95,7 @@ while saisie_incorrecte: # Tant que la saisie est incorrecte, on pose la questio
 
 Bien sûr, il faudra mettre tout ça dans une fonction !
 
-Un exemple sans les docstring (à mettre impérativement dans le projet !):
+Un exemple sans la docstring (à mettre impérativement dans le projet !):
 
 ```python
 def menu():
