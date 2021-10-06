@@ -58,7 +58,7 @@ Nous devons donc tester la réponse, et éventuellement reposer la question. Il 
 ```python
 saisie_incorrecte = True # On suppose au début que l'utilisateur fera une "mauvaise" saisie
 choix = "" # le choix ne contient rien au début
-while saisie_incorrect: # Tant que la saisie est incorrecte, on pose la question
+while saisie_incorrecte: # Tant que la saisie est incorrecte, on pose la question
     choix = input("Répondez par oui ou par non :") # on pose la question
     if choix == "oui" or choix == "non": # si le choix est correct
         saisie_incorrecte = False # La saisie devient correcte
@@ -84,7 +84,7 @@ On peut alors modifier le script de la façon suivante:
 ```python
 saisie_incorrecte = True # On suppose au début que l'utilisateur fera une "mauvaise" saisie
 choix = "" # le choix ne contient rien au début
-while saisie_incorrect: # Tant que la saisie est incorrecte, on pose la question
+while saisie_incorrecte: # Tant que la saisie est incorrecte, on pose la question
     choix = input("Répondez par (O)ui ou par (N)on :") # on pose la question
     choix = choix.upper() # On met toutes les lettres en majuscules
     if choix in ["O", "N", "OUI", "NON"]: # si le choix est correct
@@ -101,7 +101,7 @@ Un exemple sans les docstring (à mettre impérativement dans le projet !):
 def menu():
     saisie_incorrecte = True # On suppose au début que l'utilisateur fera une "mauvaise" saisie
     choix = "" # le choix ne contient rien au début
-    while saisie_incorrect: # Tant que la saisie est incorrecte, on pose la question
+    while saisie_incorrecte: # Tant que la saisie est incorrecte, on pose la question
         choix = input("Répondez par (O)ui ou par (N)on :") # on pose la question
         choix = choix.upper() # On met toutes les lettres en majuscules
         if choix in ["O", "N", "OUI", "NON"]: # si le choix est correct
@@ -121,7 +121,7 @@ print(f"Bonjour {nom} !")
 ```
 
 :::info formatage
-Pour formter un texte, vous devez mettre un `f`avant les guillements, puis mettre les expressions à évaluer entre accolades.
+Pour formater un texte, vous devez mettre un `f`avant les guillements, puis mettre les expressions à évaluer entre accolades.
 :::
 
 ```python
