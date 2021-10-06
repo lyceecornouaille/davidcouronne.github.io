@@ -1,6 +1,6 @@
 ---
 title: Enoncé projet 2
-description: Enoncé projet 1 premières
+description: Enoncé projet 2 premières
 sidebar_position: 1
 ---
 
