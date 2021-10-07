@@ -19,12 +19,30 @@ On demande pour cet exercice d'implémenter plusieurs classes qui pourront inter
 2. Créer l'accesseur `get_nom` qui renvoie le nom du personnage, puis l'accesseur pour les points de vie.
 3. Ecrire une méthode `est_vivant(self)` qui renvoie `True` quand le personnange est vivant, et `False` sinon.
 4. Ecrire une méthode `est_blesse(self, pv)` qui retire `pv` points de vie au personnage.
+
+:::tip Ecrire des tests
+Vous commencerez à écrire des tests la fin de votre fichier avec des `assert`. Par exemple:
+
+```python
+aragorn = Personnage("Aragorn", 120)
+assert(aragorn.get_nom() == 'Aragorn')
+```
+
+Vous devez tester au moins tous les accesseurs.
+:::
+
 5. Créer une classe `Arme` ayant pour attributs `_nom`, `_degats_min` et `_degats_max`, ces derniers étant des entiers naturels (dans le bon ordre évidemment).
 
 Les méthodes à implémenter sont:
 
-- Un accesseur pour le nom.
+- Un accesseur pour chacun des attributs.
 - `degat_aleat(self)` qui renvoie un nombre aléatoire de dégâts entre les deux bornes définissant cette arme.
+
+:::tip Tests
+Vous devez écrire des tests les accesseurs.
+
+Pour `degat_aleat(self)`, on testera que le nombre renvoyé est bien dans l'intervalle des dégâts de l'arme.
+:::
 
 6. Créer classe `Arbitre` ayant pour attributs deux personnages armés `_perso1` et `_perso2`.
 
@@ -51,6 +69,10 @@ Ograukh inflige 5 points de dégâts à Aragorn avec sa hache de guerre.
 
 :::info
 Il faudra peut-être aussi modifier les classes `Personnage` et `Arme`, pour y ajouter éventuellement des attributs et des méthodes...
+
+On pensera à ajouter les test supplémentaires.
+
+On ne testera pas la classe `Arbitre`: les tests des sorties console sont tout à fait possibles, mais hors programme !
 :::
 
 - `combat(self)` qui simulera un combat complet, c'est-à-dire une alternance de rounds jusqu'à ce que l'un des personnage perde la vie.
