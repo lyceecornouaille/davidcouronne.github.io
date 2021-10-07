@@ -8,7 +8,7 @@ sidebar_position: 1
 
 Vous avez deux fichiers à rendre, dans un dossier compressé:
 
-- `min_jeu.py`
+- `mini_jeu.py`
 - `calculatrice_polonaise.py`
 
 :::danger Qualité du code
