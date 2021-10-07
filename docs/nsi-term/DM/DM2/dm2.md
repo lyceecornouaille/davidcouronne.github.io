@@ -12,7 +12,7 @@ On demande pour cet exercice d'implémenter plusieurs classes qui pourront inter
 2. Créer l'accesseur `get_nom` qui renvoie le nom du personnage, puis l'accesseur pour les points de vie.
 3. Ecrire une méthode `est_vivant(self)` qui renvoie `True` quand le personnange est vivant, et `False` sinon.
 4. Ecrire une méthode `est_blesse(self, pv)` qui retire `pv` points de vie au personnage.
-5. Créer une classe `Arme` ayant pour attributs `_nom`, `_dégâts_min` et `_dégâts_max`, ces derniers étant des entiers naturels (dans le bon ordre évidemment).
+5. Créer une classe `Arme` ayant pour attributs `_nom`, `_degats_min` et `_degats_max`, ces derniers étant des entiers naturels (dans le bon ordre évidemment).
 
 Les méthodes à implémenter sont:
 
