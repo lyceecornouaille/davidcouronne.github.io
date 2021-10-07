@@ -135,9 +135,11 @@ lorsque l'on voit un opérateur, et à la fin du processus il reste exactement
 un nombre sur la pile, qui est le résultat.
 
 :::info A faire
-Ecrire une fonction `eval_polonaise_inverse(expression)` prenant en paramètre une chaîne de caractères représentant une expression en notation polonaise inverse composée **d'additions** et de **multiplications** de nombres entiers et renvoyant la valeur de cette expression.
+- Ecrire une fonction `eval_polonaise_inverse(expression)` prenant en paramètre une chaîne de caractères représentant une expression en notation polonaise inverse composée **d'additions** et de **multiplications** de nombres entiers et renvoyant la valeur de cette expression.
 
 On supposera que les éléments de l'expression sont séparés par des espaces. (penser à `split` !)
+
+- Ecrire des tests avec des `assert` à la fin du fichier.
 
 :::
 
