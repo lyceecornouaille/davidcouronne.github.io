@@ -11,6 +11,14 @@ Vous avez deux fichiers à rendre, dans un dossier compressé:
 - `min_jeu.py`
 - `calculatrice_polonaise.py`
 
+:::danger Qualité du code
+Vous aurez des tests avec des `assert`à écrire dans chacun des deux exercices.
+
+La qualité des **tests** écrits sera prise en compte dans l'évaluation, ainsi que la qualité des **docstring** et des **commentaires**.
+
+Aucune erreur de syntaxe ne sera tolérée. (note 0 à l'exercice si erreur à l'exécution du code)
+:::
+
 ## Mini-jeu
 
 On demande pour cet exercice d'implémenter plusieurs classes qui pourront interragir entre elles.
