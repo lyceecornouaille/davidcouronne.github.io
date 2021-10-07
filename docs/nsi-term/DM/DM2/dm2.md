@@ -4,6 +4,14 @@ description: Enoncé DM2 Terminale NSI
 sidebar_position: 1
 ---
 
+## Consignes
+
+Vous avez deux fichiers à rendre, dans un dossier compressé:
+
+- `min_jeu.py`
+- `calculatrice_polonaise.py`
+
+
 ## Mini-jeu
 
 On demande pour cet exercice d'implémenter plusieurs classes qui pourront interragir entre elles.
@@ -46,7 +54,7 @@ Ograukh inflige 5 points de dégâts à Aragorn avec sa hache de guerre.
 
 On affichera le détail des combats dans la console (à l'aide de `print`).
 
-Le personnage n° 1 frappera toujours en premier.
+Le personnage qui commence sera choisi au hasard.
 
 Voici un exemple d'une séquence de jeu:
 
@@ -66,3 +74,98 @@ Ograukh inflige 5 points de dégâts à Aragorn avec sa hache de guerre.
 Aragorn inflige 7 points de dégâts à Ograukh avec son épée Narsil.
 Aragorn gagne le combat: il lui reste 5 points de vie alors que Ograukh est mort.
 ```
+
+
+## Calculatrice polonaise inverse à pile
+
+L'écriture polonaise inverse des expressions arithmétiques place l'opérateur après ses opérandes. 
+
+Cette notation ne nécessite aucune parenthèse ni aucune règle de priorité. 
+
+Ainsi l'expression polonaise inverse décrite par la chaîne de caractères
+'1 2 3 * + 4 *' désigne l'expression traditionnellement notée (1 + 2 x 3) x 4.
+
+
+
+La valeur d'une telle expression peut être calculée facilement en utilisant une pile pour stocker les résultats intermédiaires. 
+
+Pour cela, on observe un à un les éléments
+de l'expression et on effectue les actions suivantes:
+
+
+- si on voit un nombre, on le place sur la pile;
+- si on voit un opérateur binaire, on récupère les deux nombres au sommet de la pile, on leur applique l'opérateur, et on replace le résultat sur la pile.
+
+Exemple pour `1 2 3 * + 4 *`
+
+
+- On voit 1 on empile
+- On voit 2 on empile
+- On voit 3 on empile
+- On voit `*`, on dépile les deux nombres au sommet, c'est à dire 3 puis 2, puis on applique `*` ce qui donne 6, que l'on empile. La pile contient donc 1 et 6 (du fond vers le haut).
+- On voit `+`, on dépile les deux nombres au sommet, c'est à dire 6 puis 1, puis on applique `+`, ce qui donne 7, que l'on empile. La pile contient donc 7.
+- On voit 4 on empile
+- On voit `*`, on dépile les deux nombres au sommet, c'est à dire 4 puis 7, puis on applique `*` ce qui donne 28, que l'on empile. La pile contient donc 28.
+- L'expression ne contient plus rien, le résultat est donc le seul élément de la pile, c'est-à-dire 28.
+
+Testez par vous même pour l'expression `2 5 * 6 + 2 *` qui doit vous donner 32.
+
+
+
+Si l'expression est bien écrite, il y a bien toujours au moins deux nombres dans la pile
+lorsque l'on voit un opérateur, et à la fin du processus il reste exactement
+un nombre sur la pile, qui est le résultat.
+
+:::info A faire
+Ecrire une fonction `eval_polonaise_inverse(expression)` prenant en paramètre une chaîne de caractères représentant une expression en notation polonaise inverse composée **d'additions** et de **multiplications** de nombres entiers et renvoyant la valeur de cette expression. 
+
+On supposera que les éléments de l'expression sont séparés par des espaces. (penser à `split` !)
+
+:::
+
+:::danger Attention
+Cette fonction ne doit pas renvoyer de résultat si l'expression est mal écrite.
+:::
+
+Exemples:
+
+```python
+eval_polonaise_inverse("1 1 +") # 2
+eval_polonaise_inverse("2 5 *") # 10
+eval_polonaise_inverse("1 2 3 * +") # 7 (3*2+1)
+eval_polonaise_inverse("1 2 3 * + 4 *") # 28
+eval_polonaise_inverse("1 2 3") # None
+eval_polonaise_inverse("1 2 + *") # None
+```
+
+ On utilisera la classe `Pile` suivante, accompagnée de la classe `Cellule`:
+
+```python
+class Cellule:
+
+	def __init__(self, v, s):
+		self.valeur = v
+		self.suivante = s
+
+class Pile:
+
+	def __init__(self):
+		self. contenu = None
+	def est_vide(self):
+		return self.contenu is None
+	def empiler(self, v):
+		self. contenu = Cellule(v, self. contenu)
+	def depiler(self):
+		if self.est_vide():
+			raise IndexError("dépiler sur une pile vide")
+		v = self.contenu.valeur
+		self.contenu = self.contenu.suivante
+		return v
+	
+```
+
+:::danger Attention
+Les classes `Cellule` et `Pile` sont livrées volontairement sans **docstring**.
+
+Vous devez **impérativement** écrire les **docstring** pour le rendu final.
+:::
