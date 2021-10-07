@@ -39,7 +39,7 @@ Vous devez avoir un menu d'accueil comme ci-dessous:
 ```
 Que souhaitez-vous faire ?
 (C)réer une nouvelle liste de course ?
-(O)uvrir une liste de courses existente pour y ajouter des éléments ?
+(O)uvrir une liste de courses existante pour y ajouter des éléments ?
 (S)upprimer des éléments de la liste de course ?
 (A)fficher la liste de course ?
 (Q)uitter le programme ?
@@ -65,7 +65,7 @@ Pour l'affichage et la suppression, voici un exemple de déroulé:
 ```
 Que souhaitez-vous faire ?
 (C)réer une nouvelle liste de course ?
-(O)uvrir une liste de courses existente pour y ajouter des éléments ?
+(O)uvrir une liste de courses existante pour y ajouter des éléments ?
 (S)upprimer des éléments de la liste de course ?
 (A)fficher la liste de course ?
 (Q)uitter le programme ?
@@ -77,7 +77,7 @@ banane
 (A)jouter un élément ou (R)evenir au menu principal ? R
 Que souhaitez-vous faire ?
 (C)réer une nouvelle liste de course ?
-(O)uvrir une liste de courses existente pour y ajouter des éléments ?
+(O)uvrir une liste de courses existante pour y ajouter des éléments ?
 (S)upprimer des éléments de la liste de course ?
 (A)fficher la liste de course ?
 (Q)uitter le programme ?
@@ -87,7 +87,7 @@ eau
 (A)jouter un élément ou (R)evenir au menu principal ? R
 Que souhaitez-vous faire ?
 (C)réer une nouvelle liste de course ?
-(O)uvrir une liste de courses existente pour y ajouter des éléments ?
+(O)uvrir une liste de courses existante pour y ajouter des éléments ?
 (S)upprimer des éléments de la liste de course ?
 (A)fficher la liste de course ?
 (Q)uitter le programme ?
@@ -97,7 +97,7 @@ banane
 eau
 Que souhaitez-vous faire ?
 (C)réer une nouvelle liste de course ?
-(O)uvrir une liste de courses existente pour y ajouter des éléments ?
+(O)uvrir une liste de courses existante pour y ajouter des éléments ?
 (S)upprimer des éléments de la liste de course ?
 (A)fficher la liste de course ?
 (Q)uitter le programme ?
@@ -108,7 +108,7 @@ Elément à supprimer: banane
 Vous avez supprimé banane.
 Que souhaitez-vous faire ?
 (C)réer une nouvelle liste de course ?
-(O)uvrir une liste de courses existente pour y ajouter des éléments ?
+(O)uvrir une liste de courses existante pour y ajouter des éléments ?
 (S)upprimer des éléments de la liste de course ?
 (A)fficher la liste de course ?
 (Q)uitter le programme ?
