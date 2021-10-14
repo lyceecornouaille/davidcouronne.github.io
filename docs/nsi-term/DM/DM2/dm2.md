@@ -39,7 +39,7 @@ assert(aragorn.get_nom() == 'Aragorn')
 Vous devez tester au moins tous les accesseurs.
 :::
 
-5. Créer une classe `Arme` ayant pour attributs `_nom`, `_degats_min` et `_degats_max`, ces derniers étant des entiers naturels (dans le bon ordre évidemment).
+5. Créer une classe `Arme` ayant pour attributs `__nom`, `__degats_min` et `__degats_max`, ces derniers étant des entiers naturels (dans le bon ordre évidemment).
 
 Les méthodes à implémenter sont:
 
@@ -52,7 +52,7 @@ Vous devez écrire des tests les accesseurs.
 Pour `degat_aleat(self)`, on testera que le nombre renvoyé est bien dans l'intervalle des dégâts de l'arme.
 :::
 
-6. Créer classe `Arbitre` ayant pour attributs deux personnages armés `_perso1` et `_perso2`.
+6. Créer classe `Arbitre` ayant pour attributs deux personnages armés `__perso1` et `__perso2`.
 
 Les méthodes à implémenter sont:
 
