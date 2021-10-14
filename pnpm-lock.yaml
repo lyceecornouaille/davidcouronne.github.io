@@ -7,7 +7,7 @@ specifiers:
   '@docusaurus/core': 2.0.0-beta.6
   '@docusaurus/preset-classic': 2.0.0-beta.6
   '@docusaurus/theme-live-codeblock': ^2.0.0-beta.6
-  '@easyops-cn/docusaurus-search-local': ^0.18.1
+  '@easyops-cn/docusaurus-search-local': ^0.19.1
   '@mdx-js/react': ^1.6.21
   '@svgr/webpack': ^5.5.0
   '@types/react': ^17.0.11
@@ -28,7 +28,7 @@ dependencies:
   '@docusaurus/core': 2.0.0-beta.6_react-dom@17.0.2+react@17.0.2
   '@docusaurus/preset-classic': 2.0.0-beta.6_cda99e010a1b36ba1ad926487e0572e3
   '@docusaurus/theme-live-codeblock': 2.0.0-beta.6_react-dom@17.0.2+react@17.0.2
-  '@easyops-cn/docusaurus-search-local': 0.18.1
+  '@easyops-cn/docusaurus-search-local': 0.19.1
   '@mdx-js/react': 1.6.22_react@17.0.2
   '@svgr/webpack': 5.5.0
   '@types/react': 17.0.19
@@ -2112,8 +2112,8 @@ packages:
       immediate: 3.3.0
     dev: false
 
-  /@easyops-cn/docusaurus-search-local/0.18.1:
-    resolution: {integrity: sha512-QVvqmOtzhi+YjBSmTQlXkNkT3Y2+AuxKvNRZtinC9BUJAMcQgLkLAun8o11H9wA567nggqda11d7i5/mKFNOag==}
+  /@easyops-cn/docusaurus-search-local/0.19.1:
+    resolution: {integrity: sha512-iBtFxP7y/eLuUABa7ODqn/RNcrWiao/LW5HiEjM56RR5hlOXjML5GmDwVdcazZHuPhR8K0sOjZE33vLRUFdCog==}
     engines: {node: '>=12'}
     peerDependencies:
       nodejieba: ^2.4.1
