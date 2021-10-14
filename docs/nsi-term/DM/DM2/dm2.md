@@ -23,7 +23,7 @@ Aucune erreur de syntaxe ne sera tolérée. (note 0 à l'exercice si erreur à l
 
 On demande pour cet exercice d'implémenter plusieurs classes qui pourront interragir entre elles.
 
-1. Créer classe `Personnage` ayant pour attributs `_nom` et `_points_de_vie`, ce dernier étant un entier naturel.
+1. Créer classe `Personnage` ayant pour attributs `__nom` et `__points_de_vie`, ce dernier étant un entier naturel.
 2. Créer l'accesseur `get_nom` qui renvoie le nom du personnage, puis l'accesseur pour les points de vie.
 3. Ecrire une méthode `est_vivant(self)` qui renvoie `True` quand le personnange est vivant, et `False` sinon.
 4. Ecrire une méthode `est_blesse(self, pv)` qui retire `pv` points de vie au personnage.
