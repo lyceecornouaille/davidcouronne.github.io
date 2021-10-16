@@ -98,3 +98,9 @@ brew install python@3.9
 ```bash
 brew install github
 ```
+
+## Installer docker
+
+```bash
+brew install --cask docker
+```
