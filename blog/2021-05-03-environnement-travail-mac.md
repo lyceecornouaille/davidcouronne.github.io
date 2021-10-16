@@ -61,6 +61,20 @@ Mettre à jour les packages:
 brew upgrade
 ```
 
+## Installer python / minoconda
+
+Avec miniconda:
+
+```bash
+brew install --cask miniconda
+```
+
+Directement
+
+```bash
+brew install python@3.9
+```
+
 ## Installer MacTex
 
 ```bash
@@ -87,20 +101,6 @@ sudo tlmgr update --all
 brew install visual-studio-code
 ```
 
-## Installer python / minoconda
-
-Avec miniconda:
-
-```bash
-brew install --cask miniconda
-```
-
-Directement
-
-```bash
-brew install python@3.9
-```
-
 ## Installer Github Desktop
 
 ```bash
@@ -111,4 +111,46 @@ brew install github
 
 ```bash
 brew install --cask docker
+```
+
+## Divers
+
+- Calibre pour les epub
+
+```bash
+brew install --cask calibre
+```
+
+- Bitwarden: gestionnaire de mots de passe
+
+```bash
+brew install --cask bitwarden
+```
+
+- Brave: navigateur respectueux de la vie privée
+
+```bash
+brew install --cask brave-browser
+```
+
+- Cryptomator: chiffrer les dossiers ou fichiers
+
+```bash
+brew install macfuse
+```
+
+```bash
+brew install --cask cryptomator
+```
+
+- Signal: messagerie privée
+
+```bash
+brew install --cask signal
+```
+
+- VLC: lecteur multimédia
+
+```bash
+brew install --cask vlc
 ```
