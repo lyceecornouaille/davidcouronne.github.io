@@ -16,6 +16,12 @@ On suppose ici que Anaconda ou Miniconda est installé.
 conda info --envs
 ```
 
+ou
+
+```bash
+conda env list
+```
+
 ### Créer un nouvel environnement
 
 ```bash
@@ -40,4 +46,11 @@ Créer un fichier `environment.yml`avec conda:
 
 ```bash
 conda env export > environment.yml
+```
+
+
+## Importer un environnement
+
+```bash
+conda env create -f environment.yml
 ```
