@@ -48,9 +48,22 @@ Créer un fichier `environment.yml`avec conda:
 conda env export > environment.yml
 ```
 
-
 ## Importer un environnement
 
 ```bash
 conda env create -f environment.yml
+```
+
+Dans le cas général:
+
+- choisir ses propres packages
+
+```bash
+conda env create -n [name of the environment] [python version] [packages]
+```
+
+- avec un fichier
+
+```bash
+conda env create -n [name of the environment] -f [file]
 ```
