@@ -87,7 +87,15 @@ sudo tlmgr update --all
 brew install visual-studio-code
 ```
 
-## Installer python
+## Installer python / minoconda
+
+Avec miniconda:
+
+```bash
+brew install --cask miniconda
+```
+
+Directement
 
 ```bash
 brew install python@3.9
