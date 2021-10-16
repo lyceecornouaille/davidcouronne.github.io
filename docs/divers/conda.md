@@ -10,7 +10,7 @@ Documentation de référence: [https://docs.conda.io/projects/conda/en/latest/us
 
 On suppose ici que Anaconda ou Miniconda est installé.
 
-### Lister tous les environnments dispobibles
+### Lister tous les environnments disponibles
 
 ```bash
 conda info --envs
