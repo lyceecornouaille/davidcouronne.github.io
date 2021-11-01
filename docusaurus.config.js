@@ -113,6 +113,7 @@ module.exports = {
           editUrl: 'https://github.com/DavidCouronne/davidcouronne.github.io/edit/master/',
           remarkPlugins: [math],
           rehypePlugins: [katex],
+          showLastUpdateTime: true,
         },
         blog: {
           showReadingTime: true,
