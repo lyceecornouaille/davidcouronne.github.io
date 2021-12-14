@@ -4,6 +4,8 @@ description: Enoncé projet 2 premières
 sidebar_position: 1
 ---
 
+## Projet 2.1: Générateur de QCM
+
 Ce projet va vous permettre de mettre au point un générateur de questions à choix multiples.
 
 Créer un fichier `qcm.txt` puis y copier le code suivant:
@@ -75,4 +77,50 @@ Quelles est votre réponse ? A
 Mauvaise réponse !
 ...
 Votre scrore: 4/10
+```
+
+## Projet 2.2: Jeu du pendu
+
+L'objectif de ce projet est de créer un jeu du pendu en Python.
+
+Les mots à deviner seront placés dans un fichier `mots.txt` avec un indication, par exemple sous la forme suivante:
+
+```
+Un fruit:ANANAS
+Une marque de voiture:PEUGEOT
+Un pays:ESPAGNE
+Un fruit:FRAISE
+```
+
+Le fichier devra contenir au moins une trentaine de mots.
+
+Le programme devra choisir au hasard un mot, et le faire deviner.
+
+Par exemple, si le mot choisis est FRAISE, on aura un affichage du type:
+
+```
+Vous deviner: Un fruit
+_ _ _ _ _ _
+Lettre ? A
+_ _ A _ _ _
+Lettre ? E
+_ _ A _ _ E
+```
+
+Il faut bien sûr deviner en un certain nombre d'étapes maximales !
+
+Vous pouvez, au choix:
+- Afficher le nombre d'erreurs possibles restantes, et on perd quand on tombe à zéro
+- Faire un vrai affichage comme le jeu du pendu.
+
+Par exemple:
+
+```
+________
+|      |
+|      O
+|     /|\
+|      |
+|     / \
+|
 ```
