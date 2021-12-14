@@ -83,7 +83,7 @@ Votre scrore: 4/10
 
 L'objectif de ce projet est de créer un jeu du pendu en Python.
 
-Les mots à deviner seront placés dans un fichier `mots.txt` avec un indication, par exemple sous la forme suivante:
+Les mots à deviner seront placés dans un fichier `mots.txt` avec une indication, par exemple sous la forme suivante:
 
 ```
 Un fruit:ANANAS
