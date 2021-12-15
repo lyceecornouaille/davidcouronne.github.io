@@ -10,7 +10,7 @@ sidebar_position: 3
 
 - Le Web ( Toile ou réseau) désigne le système donnant accès à un ensemble de données (pages, images,
   son,
-  vidéo) reliées par des liens hytpertextes et accessibles sur le réseau internet.
+  vidéo) reliées par des liens hypertextes et accessibles sur le réseau internet.
 - Sur le Web, les contenus sont exprimés et assemblés dans divers formats normalisés par le consorstium mondial [W3C](https://www.w3.org/) (_World Wild Web Consortium_) qui permet une circulation standartisée de ces informations.
 
   Le Web n'est qu'une application d'Internet comme le courier électronique, la messagerie instantanée, le partage de fichiers, les jeux en ligne, etc...
