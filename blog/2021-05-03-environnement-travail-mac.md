@@ -169,3 +169,9 @@ brew install --cask signal
 ```bash
 brew install --cask vlc
 ```
+
+- Google Chrome
+
+```bash
+brew install --cask google-chrome
+```
