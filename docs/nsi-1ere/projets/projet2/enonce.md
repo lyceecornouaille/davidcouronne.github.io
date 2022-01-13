@@ -110,6 +110,7 @@ _ _ A _ _ E
 Il faut bien sûr deviner en un certain nombre d'étapes maximales !
 
 Vous pouvez, au choix:
+
 - Afficher le nombre d'erreurs possibles restantes, et on perd quand on tombe à zéro
 - Faire un vrai affichage comme le jeu du pendu.
 

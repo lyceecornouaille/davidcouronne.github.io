@@ -77,7 +77,6 @@ conda init "$(basename "${SHELL}")"
 
 Puis redémarrer le terminal.
 
-
 Installer Python directement:
 
 ```bash
@@ -174,4 +173,21 @@ brew install --cask vlc
 
 ```bash
 brew install --cask google-chrome
+```
+
+## Installations par lot
+
+Pour installer plusieurs formules en même temps:
+
+```bash
+FORMULAS=(
+    vlc
+    signal
+)
+```
+
+Puis:
+
+```bash
+brew install ${FORMULAS[@]}
 ```
