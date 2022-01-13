@@ -69,7 +69,16 @@ Avec miniconda:
 brew install --cask miniconda
 ```
 
-Directement
+Ensuite, activer l'environnement avec:
+
+```bash
+conda init "$(basename "${SHELL}")"
+```
+
+Puis redémarrer le terminal.
+
+
+Installer Python directement:
 
 ```bash
 brew install python@3.9
