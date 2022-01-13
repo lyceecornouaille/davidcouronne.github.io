@@ -84,6 +84,12 @@ Installer Python directement:
 brew install python@3.9
 ```
 
+## Installer NodeJS
+
+```bash
+brew install node
+```
+
 ## Installer MacTex
 
 ```bash
