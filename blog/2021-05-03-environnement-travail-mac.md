@@ -109,6 +109,13 @@ Puis mettre à jour les packages:
 sudo tlmgr update --all
 ```
 
+Installer TeXMaker:
+
+```bash
+brew install --cask texmaker
+````
+
+
 ## Installer Visual Studio Code
 
 ```bash
