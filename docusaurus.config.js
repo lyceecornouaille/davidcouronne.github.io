@@ -10,7 +10,7 @@ module.exports = {
   },
   title: 'NSI-SNT',
   tagline: 'Dinosaurs are cool',
-  url: 'https://davidcouronne.vercel.app/',
+  url: 'https://snt-nsi.netlify.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -19,7 +19,7 @@ module.exports = {
   projectName: 'davidcouronne.github.io', // Usually your repo name.
 
   themeConfig: {
-    hideableSidebar: true,
+    //hideableSidebar: true,
     prism: {
       // theme: require('prism-react-renderer/themes/nightOwlLight'),
       // darkTheme: require('prism-react-renderer/themes/dracula'),
@@ -41,7 +41,7 @@ module.exports = {
         },
         {
           type: 'doc',
-          docId: 'nsi-1ere/intro',
+          docId: '/category/outils-première-nsi',
           position: 'left',
           label: 'NSI 1ère',
         },
@@ -130,21 +130,8 @@ module.exports = {
       },
     ],
   ],
-  themes: ['@docusaurus/theme-live-codeblock'],
+
   plugins: [
     // ... Your other plugins.
-    [
-      require.resolve('@easyops-cn/docusaurus-search-local'),
-      {
-        // ... Your options.
-        // `hashed` is recommended as long-term-cache of index file is possible.
-        hashed: true,
-        // For Docs using Chinese, The `language` is recommended to set to:
-        // ```
-        // language: ["en", "zh"],
-        // ```
-        // When applying `zh` in language, please install `nodejieba` in your project.
-      },
-    ],
   ],
 }

@@ -113,8 +113,7 @@ Installer TeXMaker:
 
 ```bash
 brew install --cask texmaker
-````
-
+```
 
 ## Installer Visual Studio Code
 
