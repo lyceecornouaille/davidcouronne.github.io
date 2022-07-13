@@ -14,7 +14,7 @@ const FeatureList = [
     title: 'NSI Premières',
     Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
     description: <>Spécialité NSI en classe de Première.</>,
-    link: '/docs/nsi-1ere/intro',
+    link: '/docs/category/outils-première-nsi',
   },
   {
     title: 'NSI Terminales',
