@@ -6,7 +6,7 @@ sidebar_position: 3
 
 ![Cover Image](https://res.cloudinary.com/dpw19qolx/image/upload/t_cover-image/v1561731158/shahadat-shemul-gnyA8vd3Otc-unsplash.jpg)
 
-# Généralités
+## Généralités
 
 - Le Web ( Toile ou réseau) désigne le système donnant accès à un ensemble de données (pages, images,
   son,
