@@ -1,8 +1,12 @@
 ---
 title: Créer des rapports PDF en utilisant R, R Markdown, LaTeX et knitr sur mac os
 description: Ce tutoriel vous apprend à installer LaTeX, R et R Markdown sur macOS. Il vous guide également dans la création de votre premier fichier R Markdown et montre comment le compiler dans un fichier PDF à l'aide de knitr
-tags: [mac]
-author: David Couronné
+tags: [mac, latex, markdown]
+authors:
+  name: David Couronné
+  title: Professeur de Mathématiques et NSI
+  url: https://github.com/davidcouronne
+image: https://res.cloudinary.com/dpw19qolx/image/upload/t_cover-image/v1561523332/Matterhorn_sunset_2016__28Unsplash_29.jpg
 ---
 
 ## Introduction
