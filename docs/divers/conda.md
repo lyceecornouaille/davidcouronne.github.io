@@ -1,5 +1,5 @@
 ---
-title: Conda, Miniconda, Anaconda
+title: Python - Conda, Miniconda, Anaconda
 description: Utilisation de conda, miniconda ou anaconda
 sidebar_position: 4
 ---
