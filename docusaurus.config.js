@@ -20,29 +20,7 @@ module.exports = {
 
   themeConfig: {
     //hideableSidebar: true,
-    algolia: {
-      // The application ID provided by Algolia
-      appId: 'ZULXU84X16',
-
-      // Public API key: it is safe to commit it
-      apiKey: '15572b81f69b44f977c85d149ed79328',
-
-      indexName: 'snt-nsi',
-
-      // Optional: see doc section below
-      contextualSearch: true,
-
-      // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
-      externalUrlRegex: 'external\\.com|domain\\.com',
-
-      // Optional: Algolia search parameters
-      searchParameters: {},
-
-      // Optional: path for search page that enabled by default (`false` to disable it)
-      searchPagePath: 'search',
-
-      //... other Algolia params
-    },
+    
     prism: {
       // theme: require('prism-react-renderer/themes/nightOwlLight'),
       // darkTheme: require('prism-react-renderer/themes/dracula'),
@@ -156,5 +134,20 @@ module.exports = {
 
   plugins: [
     // ... Your other plugins.
+  ],
+  themes: [
+    // ... Your other themes.
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        // ... Your options.
+        // `hashed` is recommended as long-term-cache of index file is possible.
+        hashed: true,
+        // For Docs using Chinese, The `language` is recommended to set to:
+        // ```
+        language: ["fr"],
+        // ```
+      },
+    ],
   ],
 }
