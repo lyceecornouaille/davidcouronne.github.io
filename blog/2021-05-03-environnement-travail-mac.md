@@ -109,6 +109,20 @@ Puis mettre à jour les packages:
 sudo tlmgr update --all
 ```
 
+Pour installer des packages persos:
+
+Les placer dans :
+
+```
+usr/local/texlive/texmf-local/tex/latex/local
+```
+
+Puis mettre à jour l'index des packages avec:
+
+```bash
+sudo texhash
+```
+
 Installer TeXMaker:
 
 ```bash
