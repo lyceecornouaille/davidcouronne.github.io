@@ -20,7 +20,9 @@ module.exports = {
 
   themeConfig: {
     //hideableSidebar: true,
-    
+    // <meta name="robots" content="max-image-preview:large">
+    metadata: [{ name: 'robots', content: 'max-image-preview:large' }],
+
     prism: {
       // theme: require('prism-react-renderer/themes/nightOwlLight'),
       // darkTheme: require('prism-react-renderer/themes/dracula'),
@@ -138,14 +140,14 @@ module.exports = {
   themes: [
     // ... Your other themes.
     [
-      require.resolve("@easyops-cn/docusaurus-search-local"),
+      require.resolve('@easyops-cn/docusaurus-search-local'),
       {
         // ... Your options.
         // `hashed` is recommended as long-term-cache of index file is possible.
         hashed: true,
         // For Docs using Chinese, The `language` is recommended to set to:
         // ```
-        language: ["fr"],
+        language: ['fr'],
         // ```
       },
     ],
