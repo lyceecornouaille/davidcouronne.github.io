@@ -1,7 +1,7 @@
 ---
 title: Introduction à l'algorithmique
 description: Introduction à l'algorithmique en  première NSI
-sidebar_position: 3
+sidebar_position: 1
 ---
 
 ## Introduction à l'algorithmique
