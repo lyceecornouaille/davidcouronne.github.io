@@ -118,7 +118,7 @@ def maximum(tab):
 
 Pour **calculer la moyenne**, la relation suivante est indispensable:
 
-$$\text{moyenne} = \frac{\text{somme des éléments}}{\text{nombre d'éléments}}$$
+$$\text{moyenne} = \dfrac{\text{somme des éléments}}{\text{nombre d'éléments}}$$
 
 Le parcours total est donc nécessaire et une variable temporaire sera utilisée pour stocker la somme de tous les éléments rencontrés au fil du parcours.
 
