@@ -19,6 +19,29 @@ module.exports = {
   projectName: 'davidcouronne.github.io', // Usually your repo name.
 
   themeConfig: {
+    algolia: {
+      // The application ID provided by Algolia
+      appId: 'YRG1QPI3M7',
+
+      // Public API key: it is safe to commit it
+      apiKey: '9b1581f5ad3123e0a958ccd4320dbf3c',
+
+      indexName: 'snt-nsi',
+
+      // Optional: see doc section below
+      contextualSearch: true,
+
+      // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+      externalUrlRegex: 'external\\.com|domain\\.com',
+
+      // Optional: Algolia search parameters
+      searchParameters: {},
+
+      // Optional: path for search page that enabled by default (`false` to disable it)
+      searchPagePath: 'search',
+
+      //... other Algolia params
+    },
     //hideableSidebar: true,
     // <meta name="robots" content="max-image-preview:large">
     metadata: [{ name: 'robots', content: 'max-image-preview:large' }],
@@ -139,17 +162,5 @@ module.exports = {
   ],
   themes: [
     // ... Your other themes.
-    [
-      require.resolve('@easyops-cn/docusaurus-search-local'),
-      {
-        // ... Your options.
-        // `hashed` is recommended as long-term-cache of index file is possible.
-        hashed: true,
-        // For Docs using Chinese, The `language` is recommended to set to:
-        // ```
-        language: ['fr'],
-        // ```
-      },
-    ],
   ],
 }
