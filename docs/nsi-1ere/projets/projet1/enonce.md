@@ -10,7 +10,7 @@ Pour ce premier projet en groupes, vous aurez à réaliser un script qui permet 
 
 Votre projet final doit impérativement comporter:
 
-- les doctrings des différentes fonctions
+- les docstrings des différentes fonctions
 - des commentaires pour expliquer votre code
 
 Avant de commencer le projet proprement dit, vous allez devoir effectuer quelques expérimentations sur les entrées/sorties et sur les manipulations de fichiers.
