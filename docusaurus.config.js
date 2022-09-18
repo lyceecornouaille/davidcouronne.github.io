@@ -101,23 +101,27 @@ module.exports = {
               label: 'SNT',
               to: '/docs/snt/programme',
             },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: '1ère NSI',
+              to: '/docs/nsi-1ere/debut/programme',
+            },
+            {
+              label: 'Terminale NSI',
+              to: '/docs/nsi-term/intro',
             },
           ],
         },
+
         {
           title: 'More',
           items: [
             {
               label: 'Blog',
               to: '/blog',
+            },
+            {
+              label: 'Ressources',
+              to: '/docs/divers/privacy',
             },
             {
               label: 'GitHub',
