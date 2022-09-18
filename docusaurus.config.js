@@ -79,7 +79,7 @@ module.exports = {
         },
         {
           type: 'doc',
-          docId: 'divers/cartes',
+          docId: '/category/ressources-divers',
           position: 'left',
           label: 'Ressources',
         },
@@ -95,7 +95,7 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Cours',
           items: [
             {
               label: 'SNT',
@@ -121,7 +121,7 @@ module.exports = {
             },
             {
               label: 'Ressources',
-              to: '/docs/divers/privacy',
+              to: '/docs/category/ressources-divers',
             },
             {
               label: 'GitHub',
