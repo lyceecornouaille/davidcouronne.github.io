@@ -67,3 +67,10 @@ conda env create -n [name of the environment] [python version] [packages]
 ```bash
 conda env create -n [name of the environment] -f [file]
 ```
+
+
+## Commandes pandoc
+
+```bash
+pandoc 2022-polynesie-1.md  --to latex --standalone --no-highlight -o test2.tex
+```
