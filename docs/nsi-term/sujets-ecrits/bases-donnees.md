@@ -1,7 +1,7 @@
 ---
 title: Bases de données
 description: Exercices sur les bases de données
-sidebar_position: 1
+sidebar_position: 3
 tags:
   - Sujets
 ---
