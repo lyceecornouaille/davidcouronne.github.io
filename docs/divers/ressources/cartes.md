@@ -1,7 +1,7 @@
 ---
 title: Cartes interactives
 description: Cartes interactives diverses
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 - [https://www.submarinecablemap.com/](https://www.submarinecablemap.com/)
