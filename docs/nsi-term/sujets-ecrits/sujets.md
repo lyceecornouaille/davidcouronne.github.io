@@ -1,4 +1,6 @@
 ---
+title: Sujets Complets
+description: Sujets Bac NSI
 sidebar_position: 9
 ---
 
