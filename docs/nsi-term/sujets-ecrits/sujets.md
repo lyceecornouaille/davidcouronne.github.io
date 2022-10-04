@@ -14,7 +14,7 @@ sidebar_position: 9
 - **NSIJ1JA1** - [2022 Asie Jour 1 Exo 4](./pdf/22-NSIJ1JA1-exo4.pdf): programmation objet en langage Python
 - **NSIJ1JA1** - [2022 Asie Jour 1 Exo 5](./pdf/22-NSIJ1JA1-exo5.pdf): programmation Python.
 
-## Liban Jour 1
+## 2022 Liban Jour 1
 
 - **NSIJ1LR1-**: [2022 Liban Jour 1 Exo 1](./pdf/22-NSIJ1LR1-exo1.pdf): listes, piles et files
 - **NSIJ1LR1-**: [2022 Liban Jour 1 Exo 2](./pdf/22-NSIJ1LR1-exo2.pdf): programmation objet
