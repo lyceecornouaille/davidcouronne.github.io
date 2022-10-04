@@ -1,4 +1,7 @@
-# Programme spé sni et math 2023
+---
+title: Programme spé sni et math 2023
+sidebar_position: 1
+---
 
 ## Lien officiel
 
