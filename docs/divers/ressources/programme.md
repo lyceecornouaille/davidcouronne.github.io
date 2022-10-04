@@ -1,5 +1,5 @@
 ---
-title: Programme spé sni et math 2023
+title: Programme spé nsi et math 2023
 sidebar_position: 1
 ---
 
