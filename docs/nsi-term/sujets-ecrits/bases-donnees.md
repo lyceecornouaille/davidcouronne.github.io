@@ -6,6 +6,9 @@ tags:
   - Sujets
 ---
 
+## Sujets et exercices
+
+- [2022 Asie Jour 1 Exo 2](./pdf/2022-Asie-1-exo2.pdf)
 
 ## 2022 Polynésie Jour 1
 
