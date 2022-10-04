@@ -1,7 +1,7 @@
 ---
 title: Sécurité et Confidentialité
 description: Ressources privacy et security
-sidebar_position: 2
+sidebar_position: 5
 ---
 
 ## Tests de sécurité et confidentialité
