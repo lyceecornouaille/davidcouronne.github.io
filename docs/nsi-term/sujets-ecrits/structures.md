@@ -1,0 +1,12 @@
+---
+sidebar_position: 2
+---
+
+# Structures de données
+
+## Sujets
+
+- **NSIJ1JA1** - [2022 Asie Jour 1 Exo 4](./pdf/22-NSIJ1JA1-exo4.pdf): programmation objet en langage Python
+- **NSIJ1G11**: [2022 Centres étrangers Jour 1 Exo 1](./pdf/22-NSIJ1G11-exo1.pdf): listes, p-uplets et dictionnaires
+- **NSIJ1G11**: [2022 Centres étrangers Jour 1 Exo 2](./pdf/22-NSIJ1G11-exo2.pdf): files et la programmation objet en langage python
+- **NSIJ1G11**: [2022 Centres étrangers Jour 1 Exo 3](./pdf/22-NSIJ1G11-exo3.pdf): dictionnaires
