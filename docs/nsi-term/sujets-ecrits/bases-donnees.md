@@ -8,7 +8,8 @@ tags:
 
 ## Sujets et exercices
 
-- [2022 Asie Jour 1 Exo 2](./pdf/2022-Asie-1-exo2.pdf)
+- [2022 Asie Jour 1 Exo 2](./pdf/2022-Asie-1-exo2.pdf) : base de données
+- [2022 Centres étrangers Jour 1 exo 4](./pdf/22-NSIJ1G11-exo4.pdf): base de données
 
 ## 2022 Polynésie Jour 1
 
