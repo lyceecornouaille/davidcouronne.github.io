@@ -1,4 +1,9 @@
-# Programme 2022-2023
+---
+title: Programme 2022-2023
+sidebar_position: 1
+---
+
+#
 
 ## Lien officiel
 
