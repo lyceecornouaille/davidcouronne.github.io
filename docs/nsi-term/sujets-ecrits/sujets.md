@@ -48,4 +48,8 @@ https://fabricenativel.github.io/NSITerminale/index_annales/
 
 ## Polynésie Jour 1
 
-<iframe src="https://www.sujetdebac.fr/annales-pdf/2022/spe-numerique-informatique-2022-polynesie-1-sujet-officiel.pdf" width="100%" height="500px"> </iframe>
+- **NSIJ1PO1**: [2022 Polynésie Jour 1 Exo 1](./pdf/22-NSIJ1PO1-exo1.pdf): programmation et récursivité
+- **NSIJ1PO1**: [2022 Polynésie Jour 1 Exo 2](./pdf/22-NSIJ1PO1-exo2-complet.pdf): architecture matérielle, ordonnancement et expressions booléennes
+- **NSIJ1PO1**: [2022 Polynésie Jour 1 Exo 3](./pdf/22-NSIJ1PO1-exo3.pdf): base de données, modèle relationnel, langage SQL
+- **NSIJ1PO1**: [2022 Polynésie Jour 1 Exo 4](./pdf/22-NSIJ1PO1-exo4.pdf): structures de données, piles
+- **NSIJ1PO1**: [2022 Polynésie Jour 1 Exo 5](./pdf/22-NSIJ1PO1-exo5.pdf): algorithmique, algorithme sur les abres binaires
