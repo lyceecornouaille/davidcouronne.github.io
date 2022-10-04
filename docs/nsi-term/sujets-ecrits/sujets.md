@@ -6,6 +6,8 @@ sidebar_position: 9
 
 # Sujets Complets
 
+https://fabricenativel.github.io/NSITerminale/index_annales/
+
 ## 2022 Asie Jour 1
 
 - **NSIJ1JA1** - [2022 Asie Jour 1 Exo 1](./pdf/22-NSIJ1JA1-exo1.pdf): algorithmique – chaînes de caractères – complexité.
@@ -33,6 +35,16 @@ sidebar_position: 9
 - **NSIJ1G11**: [2022 Centres étrangers Jour 1 Exo 4](./pdf/22-NSIJ1G11-exo4.pdf): base de données
 
 - **NSIJ1G11**: [2022 Centres étrangers Jour 1 Exo 5](./pdf/22-NSIJ1G11-exo5.pdf): architecture matérielle des ordinateurs, les réseaux et sur les Protocoles de routage
+
+## 2022 Métrople Jour 1
+
+- **NSIJ1ME1**: [2022 Métrople Jour 1 Exo 1](./pdf/22-NSIJ1ME1-exo1.pdf): structures de données
+- **NSIJ1ME1**: [2022 Métrople Jour 1 Exo 2](./pdf/22-NSIJ1ME1-exo2.pdf): bases de données
+- **NSIJ1ME1**: [2022 Métrople Jour 1 Exo 3](./pdf/22-NSIJ1ME1-exo3.pdf): représentations binaires et protocoles de routage
+
+- **NSIJ1ME1**: [2022 Métrople Jour 1 Exo 4](./pdf/22-NSIJ1ME1-exo4.pdf): parcours des arbres binaires, diviser pour régner, récursivité
+
+- **NSIJ1ME1**: [2022 Métrople Jour 1 Exo 5](./pdf/22-NSIJ1ME1-exo5.pdf): programmation orientée objet
 
 ## Polynésie Jour 1
 
