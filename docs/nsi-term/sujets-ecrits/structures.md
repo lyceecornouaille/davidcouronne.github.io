@@ -10,3 +10,5 @@ sidebar_position: 2
 - **NSIJ1G11**: [2022 Centres étrangers Jour 1 Exo 1](./pdf/22-NSIJ1G11-exo1.pdf): listes, p-uplets et dictionnaires
 - **NSIJ1G11**: [2022 Centres étrangers Jour 1 Exo 2](./pdf/22-NSIJ1G11-exo2.pdf): files et la programmation objet en langage python
 - **NSIJ1G11**: [2022 Centres étrangers Jour 1 Exo 3](./pdf/22-NSIJ1G11-exo3.pdf): dictionnaires
+- **NSIJ1LR1-**: [2022 Liban Jour 1 Exo 1](./pdf/22-NSIJ1LR1-exo1.pdf): listes, piles et files
+- **NSIJ1LR1-**: [2022 Liban Jour 1 Exo 2](./pdf/22-NSIJ1LR1-exo2.pdf): programmation objet
