@@ -10,7 +10,6 @@ Lors de l'épreuve terminale dans l'enseignement de spécialité numérique et s
 
 :::
 
-
 ## « Structures de données »
 
 - Structures de données, interface et implémentation
@@ -24,12 +23,10 @@ Lors de l'épreuve terminale dans l'enseignement de spécialité numérique et s
 - Base de données relationnelle
 - Langage SQL : requêtes d'interrogation et de mise à jour d'une base de données
 
-
 ## « Architectures matérielles, systèmes d'exploitation et réseaux »
 
 - Gestion des processus et des ressources par un système d'exploitation
 - Protocoles de routage
-
 
 ## « Langages et programmation »:
 
