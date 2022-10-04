@@ -10,6 +10,7 @@ tags:
 
 - **NSIJ1JA1**: [2022 Asie Jour 1 Exo 2](./pdf/2022-Asie-1-exo2.pdf) : base de données
 - **NSIJ1G11**: [2022 Centres étrangers Jour 1 Exo 4](./pdf/22-NSIJ1G11-exo4.pdf): base de données
+- **NSIJ1LR1-**: [2022 Liban Jour 1 Exo 3](./pdf/22-NSIJ1LR1-exo3-complet.pdf): bases de données relationnelles, langage SQL
 
 ## 2022 Polynésie Jour 1
 
