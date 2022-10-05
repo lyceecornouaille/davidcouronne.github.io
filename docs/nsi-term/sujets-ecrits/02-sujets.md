@@ -5,6 +5,8 @@ description: Sujets Ecrits Bac NSI
 
 https://fabricenativel.github.io/NSITerminale/index_annales/
 
+https://fabricenativel.github.io/Terminale/Annales/2022/EE/#polynesie-jour-1-22-nsij1po1
+
 ## 2022 Asie Jour 1
 
 - **NSIJ1JA1** - [2022 Asie Jour 1 Exo 1](./pdf/22-NSIJ1JA1-exo1.pdf): algorithmique – chaînes de caractères – complexité.
