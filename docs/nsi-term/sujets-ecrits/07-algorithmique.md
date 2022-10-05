@@ -11,3 +11,5 @@ title: Algorithmique
 - **NSIJ2JA1**: [2022 Asie Jour 2 Exo 2](./pdf/22-NSIJ2JA1-exo2.pdf): arbres binaires de recherche
 - **22-NSIJ2LR1**: [2022 Mayotte Jour 2 Exo 5](./pdf/22-NSIJ2LR1-exo5.pdf): les algorithmes et la programmation Python.
 - **22-NSIJ2LR1**: [2022 Mayotte Jour 2 Exo 4](./pdf/22-NSIJ2LR1-exo4.pdf): arbres binaires de recherche.
+- **22-NSIJ2ME1**: [2022 Métropole Jour 2 Exo 5](./pdf/22-NSIJ2ME1-exo5.pdf): programmation objet et la méthode diviser pour régner.
+- **22-NSIJ2ME1**: [2022 Métropole Jour 2 Exo 1](./pdf/22-NSIJ2ME1-exo1.pdf): arbres binaires de recherche, la programmation orientée objet et la récursivité.

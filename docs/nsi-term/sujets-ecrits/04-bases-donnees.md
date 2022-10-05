@@ -14,6 +14,7 @@ tags:
 - **NSIJ1PO1**: [2022 Polynésie Jour 1 Exo 3](./pdf/22-NSIJ1PO1-exo3.pdf): base de données, modèle relationnel, langage SQL
 - **NSIJ2JA1**: [2022 Asie Jour 2 Exo 4](./pdf/22-NSIJ2JA1-exo4-complet.pdf): bases de données et langage SQL
 - **22-NSIJ2LR1**: [2022 Mayotte Jour 2 Exo 2](./pdf/22-NSIJ2LR1-exo2-complet.pdf): bases de données.
+- **22-NSIJ2ME1**: [2022 Métropole Jour 2 Exo 4](./pdf/22-NSIJ2ME1-exo4.pdf): bases de données relationnelles et le langage SQL.
 
 ## 2022 Polynésie Jour 1
 

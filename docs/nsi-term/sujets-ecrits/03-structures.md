@@ -15,3 +15,4 @@ title: Structures de données
 - **NSIJ1PO1**: [2022 Polynésie Jour 1 Exo 4](./pdf/22-NSIJ1PO1-exo4.pdf): structures de données, piles
 - **NSIJ2JA1**: [2022 Asie Jour 2 Exo 3](./pdf/22-NSIJ2JA1-exo3.pdf): structures de données, programmation
 - **22-NSIJ2LR1**: [2022 Mayotte Jour 2 Exo 1](./pdf/22-NSIJ2LR1-exo1.pdf): structures de données (pile).
+- **22-NSIJ2ME1**: [2022 Métropole Jour 2 Exo 2](./pdf/22-NSIJ2ME1-exo2.pdf): structures de données.(pile)
