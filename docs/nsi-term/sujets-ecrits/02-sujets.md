@@ -70,3 +70,11 @@ https://fabricenativel.github.io/Terminale/Annales/2022/EE/#polynesie-jour-1-22-
 - **22-NSIJ2ME1**: [2022 Métropole Jour 2 Exo 3](./pdf/22-NSIJ2ME1-exo3.pdf): les réseaux et les protocoles de routages.
 - **22-NSIJ2ME1**: [2022 Métropole Jour 2 Exo 4](./pdf/22-NSIJ2ME1-exo4.pdf): bases de données relationnelles et le langage SQL.
 - **22-NSIJ2ME1**: [2022 Métropole Jour 2 Exo 5](./pdf/22-NSIJ2ME1-exo5.pdf): programmation objet et la méthode diviser pour régner.
+
+## Amérique du Nord Jour 1
+
+- **22-NSIJ1AN1**: [2022 Amérique du Nord Jour 1 Exo 1](./pdf/22-NSIJ1AN1-exo1.pdf): bases de données et SQL
+- **22-NSIJ1AN1**: [2022 Amérique du Nord Jour 1 Exo 2](./pdf/22-NSIJ1AN1-exo2.pdf): réseaux et protocoles de routage
+- **22-NSIJ1AN1**: [2022 Amérique du Nord Jour 1 Exo 3](./pdf/22-NSIJ1AN1-exo3.pdf): arbres binaires de recherche et algorithmes associés
+- **22-NSIJ1AN1**: [2022 Amérique du Nord Jour 1 Exo 4](./pdf/22-NSIJ1AN1-exo4.pdf): chaïnes de caractères, tableaux et programmation de base
+- **22-NSIJ1AN1**: [2022 Amérique du Nord Jour 1 Exo 5](./pdf/22-NSIJ1AN1-exo5.pdf): files, tableaux et algorithmes associés
