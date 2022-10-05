@@ -17,9 +17,7 @@ https://fabricenativel.github.io/NSITerminale/index_annales/
 
 - **NSIJ1LR1-**: [2022 Liban Jour 1 Exo 1](./pdf/22-NSIJ1LR1-exo1.pdf): listes, piles et files
 - **NSIJ1LR1-**: [2022 Liban Jour 1 Exo 2](./pdf/22-NSIJ1LR1-exo2.pdf): programmation objet
-
 - **NSIJ1LR1-**: [2022 Liban Jour 1 Exo 3](./pdf/22-NSIJ1LR1-exo3-complet.pdf): bases de données relationnelles, langage SQL
-
 - **NSIJ1LR1-**: [2022 Liban Jour 1 Exo 4](./pdf/22-NSIJ1LR1-exo4.pdf): arbres binaires en profondeurs préfixe et infixe
 - **NSIJ1LR1-**: [2022 Liban Jour 1 Exo 5](./pdf/22-NSIJ1LR1-exo5.pdf): transmission de données dans un réseau, architecture d’un réseau, protocoles de routage, langages et programmation.
 
@@ -28,19 +26,15 @@ https://fabricenativel.github.io/NSITerminale/index_annales/
 - **NSIJ1G11**: [2022 Centres étrangers Jour 1 Exo 1](./pdf/22-NSIJ1G11-exo1.pdf): listes, p-uplets et dictionnaires
 - **NSIJ1G11**: [2022 Centres étrangers Jour 1 Exo 2](./pdf/22-NSIJ1G11-exo2.pdf): files et la programmation objet en langage python
 - **NSIJ1G11**: [2022 Centres étrangers Jour 1 Exo 3](./pdf/22-NSIJ1G11-exo3.pdf): dictionnaires
-
 - **NSIJ1G11**: [2022 Centres étrangers Jour 1 Exo 4](./pdf/22-NSIJ1G11-exo4.pdf): base de données
-
 - **NSIJ1G11**: [2022 Centres étrangers Jour 1 Exo 5](./pdf/22-NSIJ1G11-exo5.pdf): architecture matérielle des ordinateurs, les réseaux et sur les Protocoles de routage
 
 ## 2022 Métropole Jour 1
 
-- **NSIJ1ME1**: [2022 Métropole Jour 1 Exo 1](./pdf/22-NSIJ1ME1-exo1.pdf): structures de données
+- **NSIJ1ME1**: [2022 Métropole Jour 1 Exo 1](./pdf/22-NSIJ1ME1-exo1.pdf): structures de données, piles
 - **NSIJ1ME1**: [2022 Métropole Jour 1 Exo 2](./pdf/22-NSIJ1ME1-exo2.pdf): bases de données
 - **NSIJ1ME1**: [2022 Métropole Jour 1 Exo 3](./pdf/22-NSIJ1ME1-exo3.pdf): représentations binaires et protocoles de routage
-
 - **NSIJ1ME1**: [2022 Métropole Jour 1 Exo 4](./pdf/22-NSIJ1ME1-exo4.pdf): parcours des arbres binaires, diviser pour régner, récursivité
-
 - **NSIJ1ME1**: [2022 Métropole Jour 1 Exo 5](./pdf/22-NSIJ1ME1-exo5.pdf): programmation orientée objet
 
 ## Polynésie Jour 1
