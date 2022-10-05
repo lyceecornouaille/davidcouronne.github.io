@@ -78,3 +78,11 @@ https://fabricenativel.github.io/Terminale/Annales/2022/EE/#polynesie-jour-1-22-
 - **22-NSIJ1AN1**: [2022 Amérique du Nord Jour 1 Exo 3](./pdf/22-NSIJ1AN1-exo3.pdf): arbres binaires de recherche et algorithmes associés
 - **22-NSIJ1AN1**: [2022 Amérique du Nord Jour 1 Exo 4](./pdf/22-NSIJ1AN1-exo4.pdf): chaïnes de caractères, tableaux et programmation de base
 - **22-NSIJ1AN1**: [2022 Amérique du Nord Jour 1 Exo 5](./pdf/22-NSIJ1AN1-exo5.pdf): files, tableaux et algorithmes associés
+
+## Amérique du Nord Jour 2
+
+- **22-NSIJ2AN1**: [2022 Amérique du Nord Jour 2 Exo 1](./pdf/22-NSIJ2AN1-exo1.pdf): listes, arbres binaires de recherche, objet
+- **22-NSIJ2AN1**: [2022 Amérique du Nord Jour 2 Exo 2](./pdf/22-NSIJ2AN1-exo2.pdf): systèmes d'exploitation et gestion des processus
+- **22-NSIJ2AN1**: [2022 Amérique du Nord Jour 2 Exo 3](./pdf/22-NSIJ2AN1-exo3.pdf): bases de données et SQL
+- **22-NSIJ2AN1**: [2022 Amérique du Nord Jour 2 Exo 4](./pdf/22-NSIJ2AN1-exo4.pdf): arbres binaires et algorithmes associés
+- **22-NSIJ2AN1**: [2022 Amérique du Nord Jour 2 Exo 5](./pdf/22-NSIJ2AN1-exo5.pdf): tableaux à deux dimensions et programmation en général
