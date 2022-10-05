@@ -1,10 +1,7 @@
 ---
 title: Sujets Complets
-description: Sujets Bac NSI
-sidebar_position: 9
+description: Sujets Ecrits Bac NSI
 ---
-
-# Sujets Complets
 
 https://fabricenativel.github.io/NSITerminale/index_annales/
 
@@ -56,8 +53,8 @@ https://fabricenativel.github.io/NSITerminale/index_annales/
 
 ## Asie Jour 2
 
-- **NSIJ2JA1**: [2022 Asie Jour 2 Exo 1](./pdf/22-NSIJ2JA1-exo1-complet.pdf):
-- **NSIJ2JA1**: [2022 Asie Jour 2 Exo 2](./pdf/22-NSIJ2JA1-exo2.pdf):
-- **NSIJ2JA1**: [2022 Asie Jour 2 Exo 3](./pdf/22-NSIJ2JA1-exo3.pdf):
-- **NSIJ2JA1**: [2022 Asie Jour 2 Exo 4](./pdf/22-NSIJ2JA1-exo4-complet.pdf):
-- **NSIJ2JA1**: [2022 Asie Jour 2 Exo 5](./pdf/22-NSIJ2JA1-exo5.pdf):
+- **NSIJ2JA1**: [2022 Asie Jour 2 Exo 1](./pdf/22-NSIJ2JA1-exo1-complet.pdf): systèmes d'exploitation Linux
+- **NSIJ2JA1**: [2022 Asie Jour 2 Exo 2](./pdf/22-NSIJ2JA1-exo2.pdf): arbres binaires de recherche
+- **NSIJ2JA1**: [2022 Asie Jour 2 Exo 3](./pdf/22-NSIJ2JA1-exo3.pdf): structures de données, programmation
+- **NSIJ2JA1**: [2022 Asie Jour 2 Exo 4](./pdf/22-NSIJ2JA1-exo4-complet.pdf): bases de données et langage SQL
+- **NSIJ2JA1**: [2022 Asie Jour 2 Exo 5](./pdf/22-NSIJ2JA1-exo5.pdf): Exécution de programmes, recherche et corrections de bugs

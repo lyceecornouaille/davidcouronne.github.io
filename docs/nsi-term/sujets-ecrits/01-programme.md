@@ -1,9 +1,7 @@
 ---
 title: Programme 2022-2023
-sidebar_position: 1
+description: Programme de NSI pour le Bac 2022-2023
 ---
-
-#
 
 ## Lien officiel
 

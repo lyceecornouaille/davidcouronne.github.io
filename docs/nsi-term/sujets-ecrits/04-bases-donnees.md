@@ -1,7 +1,6 @@
 ---
 title: Bases de données
 description: Exercices sur les bases de données
-sidebar_position: 3
 tags:
   - Sujets
 ---
@@ -13,6 +12,7 @@ tags:
 - **NSIJ1LR1-**: [2022 Liban Jour 1 Exo 3](./pdf/22-NSIJ1LR1-exo3-complet.pdf): bases de données relationnelles, langage SQL
 - **NSIJ1ME1**: [2022 Métrople Jour 1 Exo 2](./pdf/22-NSIJ1ME1-exo2.pdf): bases de données
 - **NSIJ1PO1**: [2022 Polynésie Jour 1 Exo 3](./pdf/22-NSIJ1PO1-exo3.pdf): base de données, modèle relationnel, langage SQL
+- **NSIJ2JA1**: [2022 Asie Jour 2 Exo 4](./pdf/22-NSIJ2JA1-exo4-complet.pdf): bases de données et langage SQL
 
 ## 2022 Polynésie Jour 1
 

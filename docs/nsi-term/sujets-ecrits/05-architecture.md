@@ -1,8 +1,6 @@
 ---
-sidebar_position: 4
+title: Architectures matérielles, systèmes d'exploitation et réseaux
 ---
-
-# Architectures matérielles, systèmes d'exploitation et réseaux
 
 ## Sujet
 
@@ -11,3 +9,4 @@ sidebar_position: 4
 - **NSIJ1LR1-**: [2022 Liban Jour 1 Exo 5](./pdf/22-NSIJ1LR1-exo5.pdf): transmission de données dans un réseau, architecture d’un réseau, protocoles de routage, langages et programmation.
 - **NSIJ1ME1**: [2022 Métrople Jour 1 Exo 3](./pdf/22-NSIJ1ME1-exo3.pdf): représentations binaires et protocoles de routage
 - **NSIJ1PO1**: [2022 Polynésie Jour 1 Exo 2](./pdf/22-NSIJ1PO1-exo2-complet.pdf): architecture matérielle, ordonnancement et expressions booléennes
+- **NSIJ2JA1**: [2022 Asie Jour 2 Exo 1](./pdf/22-NSIJ2JA1-exo1-complet.pdf): systèmes d'exploitation Linux
