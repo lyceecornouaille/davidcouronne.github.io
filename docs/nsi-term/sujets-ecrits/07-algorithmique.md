@@ -9,3 +9,5 @@ title: Algorithmique
 - **NSIJ1ME1**: [2022 Métrople Jour 1 Exo 4](./pdf/22-NSIJ1ME1-exo4.pdf): parcours des arbres binaires, diviser pour régner, récursivité
 - **NSIJ1PO1**: [2022 Polynésie Jour 1 Exo 5](./pdf/22-NSIJ1PO1-exo5.pdf): algorithmique, algorithme sur les abres binaires
 - **NSIJ2JA1**: [2022 Asie Jour 2 Exo 2](./pdf/22-NSIJ2JA1-exo2.pdf): arbres binaires de recherche
+- **22-NSIJ2LR1**: [2022 Mayotte Jour 2 Exo 5](./pdf/22-NSIJ2LR1-exo5.pdf): les algorithmes et la programmation Python.
+- **22-NSIJ2LR1**: [2022 Mayotte Jour 2 Exo 4](./pdf/22-NSIJ2LR1-exo4.pdf): arbres binaires de recherche.

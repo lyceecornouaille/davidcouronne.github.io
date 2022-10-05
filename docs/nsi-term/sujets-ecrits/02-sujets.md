@@ -52,3 +52,11 @@ https://fabricenativel.github.io/NSITerminale/index_annales/
 - **NSIJ2JA1**: [2022 Asie Jour 2 Exo 3](./pdf/22-NSIJ2JA1-exo3.pdf): structures de données, programmation
 - **NSIJ2JA1**: [2022 Asie Jour 2 Exo 4](./pdf/22-NSIJ2JA1-exo4-complet.pdf): bases de données et langage SQL
 - **NSIJ2JA1**: [2022 Asie Jour 2 Exo 5](./pdf/22-NSIJ2JA1-exo5.pdf): Exécution de programmes, recherche et corrections de bugs
+
+## Mayotte Jour 2
+
+- **22-NSIJ2LR1**: [2022 Mayotte Jour 2 Exo 1](./pdf/22-NSIJ2LR1-exo1.pdf): structures de données (pile).
+- **22-NSIJ2LR1**: [2022 Mayotte Jour 2 Exo 2](./pdf/22-NSIJ2LR1-exo2-complet.pdf): bases de données.
+- **22-NSIJ2LR1**: [2022 Mayotte Jour 2 Exo 3](./pdf/22-NSIJ2LR1-exo3-complet.pdf): représentation binaire d’un entier relatif et les systèmes d’exploitation.
+- **22-NSIJ2LR1**: [2022 Mayotte Jour 2 Exo 4](./pdf/22-NSIJ2LR1-exo4.pdf): arbres binaires de recherche.
+- **22-NSIJ2LR1**: [2022 Mayotte Jour 2 Exo 5](./pdf/22-NSIJ2LR1-exo5.pdf): les algorithmes et la programmation Python.
