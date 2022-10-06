@@ -19,6 +19,11 @@ module.exports = {
   projectName: 'davidcouronne.github.io', // Usually your repo name.
 
   themeConfig: {
+    docs: {
+      sidebar: {
+        hideable: true,
+      },
+    },
     algolia: {
       // The application ID provided by Algolia
       appId: 'YRG1QPI3M7',
