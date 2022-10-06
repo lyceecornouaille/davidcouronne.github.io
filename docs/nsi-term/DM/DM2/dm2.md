@@ -16,7 +16,6 @@ Vous aurez des tests avec des `assert`à écrire dans chacun des deux exercices.
 
 La qualité des **tests** écrits sera prise en compte dans l'évaluation, ainsi que la qualité des **docstring** et des **commentaires**.
 
-Aucune erreur de syntaxe ne sera tolérée. (note 0 à l'exercice si erreur à l'exécution du code)
 :::
 
 ## Mini-jeu
@@ -33,7 +32,7 @@ Vous commencerez à écrire des tests la fin de votre fichier avec des `assert`.
 
 ```python
 aragorn = Personnage("Aragorn", 120)
-assert(aragorn.get_nom() == 'Aragorn')
+assert(aragorn.get_nom() == 'Aragorn'), "l'accesseur ne renvoie pas le bon nom"
 ```
 
 Vous devez tester au moins tous les accesseurs.
@@ -47,9 +46,11 @@ Les méthodes à implémenter sont:
 - `degat_aleat(self)` qui renvoie un nombre aléatoire de dégâts entre les deux bornes définissant cette arme.
 
 :::tip Tests
-Vous devez écrire des tests les accesseurs.
+
+Vous devez écrire des tests pour les accesseurs.
 
 Pour `degat_aleat(self)`, on testera que le nombre renvoyé est bien dans l'intervalle des dégâts de l'arme.
+
 :::
 
 6. Créer classe `Arbitre` ayant pour attributs deux personnages armés `__perso1` et `__perso2`.
@@ -76,11 +77,13 @@ Ograukh inflige 5 points de dégâts à Aragorn avec sa hache de guerre.
 ```
 
 :::info
+
 Il faudra peut-être aussi modifier les classes `Personnage` et `Arme`, pour y ajouter éventuellement des attributs et des méthodes...
 
 On pensera à ajouter les test supplémentaires.
 
 On ne testera pas la classe `Arbitre`: les tests des sorties console sont tout à fait possibles, mais hors programme !
+
 :::
 
 - `combat(self)` qui simulera un combat complet, c'est-à-dire une alternance de rounds jusqu'à ce que l'un des personnage perde la vie.
@@ -153,7 +156,9 @@ On supposera que les éléments de l'expression sont séparés par des espaces. 
 :::
 
 :::danger Attention
+
 Cette fonction ne doit pas renvoyer de résultat si l'expression est mal écrite.
+
 :::
 
 Exemples:
@@ -194,7 +199,9 @@ class Pile:
 ```
 
 :::danger Attention
+
 Les classes `Cellule` et `Pile` sont livrées volontairement sans **docstring**.
 
 Vous devez **impérativement** écrire les **docstring** pour le rendu final.
+
 :::
