@@ -10,7 +10,7 @@ module.exports = {
   },
   title: 'NSI-SNT',
   tagline: 'Dinosaurs are cool',
-  url: 'https://snt-nsi.netlify.app/',
+  url: 'https://snt-nsi.netlify.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
