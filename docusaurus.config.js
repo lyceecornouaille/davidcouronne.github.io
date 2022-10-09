@@ -72,7 +72,7 @@ module.exports = {
         },
         {
           type: 'doc',
-          docId: '/category/outils-première-nsi',
+          docId: '/category/outils-premiere-nsi',
           position: 'left',
           label: 'NSI 1ère',
         },
