@@ -49,3 +49,12 @@ html[data-theme='dark'] {
   --ifm-color-primary-lightest: #b7ddf7;
   --ifm-background-color: #121212;
 }
+:root {
+  --ifm-color-primary: #265c82;
+  --ifm-color-primary-dark: #225375;
+  --ifm-color-primary-darker: #204e6e;
+  --ifm-color-primary-darkest: #1b405b;
+  --ifm-color-primary-light: #2a658f;
+  --ifm-color-primary-lighter: #2c6a95;
+  --ifm-color-primary-lightest: #3178a9;
+}
