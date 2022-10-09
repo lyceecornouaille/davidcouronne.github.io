@@ -38,3 +38,14 @@ html[data-theme='dark'] {
   --ifm-alert-color: hsl(0, 0%, 100%);
   --ifm-blockquote-color: hsl(0, 0%, 100%);
 }
+
+[data-theme='dark'] {
+  --ifm-color-primary: #5db2ee;
+  --ifm-color-primary-dark: #3fa4eb;
+  --ifm-color-primary-darker: #309de9;
+  --ifm-color-primary-darkest: #1684d2;
+  --ifm-color-primary-light: #7bc0f1;
+  --ifm-color-primary-lighter: #8ac7f3;
+  --ifm-color-primary-lightest: #b7ddf7;
+  --ifm-background-color: #121212;
+}
