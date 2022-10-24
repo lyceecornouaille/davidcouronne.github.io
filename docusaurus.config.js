@@ -84,6 +84,12 @@ module.exports = {
         },
         {
           type: 'doc',
+          docId: 'maths/expo-premiere',
+          position: 'left',
+          label: 'Maths',
+        },
+        {
+          type: 'doc',
           docId: '/category/ressources-divers',
           position: 'left',
           label: 'Ressources',
