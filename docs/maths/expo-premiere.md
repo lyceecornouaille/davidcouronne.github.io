@@ -1,11 +1,10 @@
 ---
 title: Exponentielle - première
 author: [David Couronné]
-date: "2022-10-23"
-subject: "Markdown"
+date: '2022-10-23'
+subject: 'Markdown'
 keywords: [Cours, Rappels]
 ---
-
 
 # Généralités sur la fonction exponentielle
 
@@ -52,11 +51,11 @@ réciproquement.
 
 Pour tous réels $x$ et $y$, on a :
 
--   $exp(-x) \times exp(x)=1 \iff \boxed{exp(-x)=\frac{1}{exp(x)}}$
+- $exp(-x) \times exp(x)=1 \iff \boxed{exp(-x)=\frac{1}{exp(x)}}$
 
--   $\boxed{exp(x-y)=\frac{exp(x)}{exp(y)}}$
+- $\boxed{exp(x-y)=\frac{exp(x)}{exp(y)}}$
 
--   $\boxed{(exp(x))^n=exp(nx)}$
+- $\boxed{(exp(x))^n=exp(nx)}$
 
 :::
 
@@ -70,13 +69,13 @@ $=\!\exp(1\!\times\!2)\!-\!2\exp(1\!-\!1)\!+\!\exp(-1\!\times\!2)\!=\!\exp(2)\!-
 Toutes ces propriétés rappellent celles des puissances, en effet, on
 rappelle que :
 
--   $a^n \times a^m = a^{n+m}$
+- $a^n \times a^m = a^{n+m}$
 
--   $(a^n)^m=a^{nm}$
+- $(a^n)^m=a^{nm}$
 
--   $\frac{a^n}{a^m}=a^{n-m}$
+- $\frac{a^n}{a^m}=a^{n-m}$
 
--   $a^0=1$ et $a^1=a$
+- $a^0=1$ et $a^1=a$
 
 Les propriétés de la fonction $exp$ étant ressemblantes, on décide de
 noter la fonction exponentielle de façon plus simple :
@@ -86,13 +85,13 @@ $exp(x)=e^x$ pour tout $x$
 On écrit alors les propriétés algébriques précédentes de la façon
 suivante :
 
--   $e^0=1$ et $e^1=e$
+- $e^0=1$ et $e^1=e$
 
--   $e^{x+y}=e^x \times e^y$
+- $e^{x+y}=e^x \times e^y$
 
--   $(e^x)^n=e^{nx}$, avec $n \in \N$
+- $(e^x)^n=e^{nx}$, avec $n \in \N$
 
--   $\frac{e^x}{e^y}=e^{x-y}$
+- $\frac{e^x}{e^y}=e^{x-y}$
 
 **Remarque : Le nombre $e$**
 
@@ -197,9 +196,9 @@ De la stricte croissance de la fonction exponentielle, on déduit que :
 
 Pour tous réels $a$ et $b$, on a:
 
--   $\boxed{e^a = e^b \iff a=b}$
+- $\boxed{e^a = e^b \iff a=b}$
 
--   $\boxed{e^a \leq e^b \iff a \leq b}$
+- $\boxed{e^a \leq e^b \iff a \leq b}$
 
 :::
 
@@ -224,9 +223,9 @@ La méthode est analogue pour résoudre une inéquation.
 Déterminer l'ensemble $\mathcal{S}$ des solutions des équations et
 inéquations.
 
-1. $e^{x^2+2x-3} = 1$ 
+1. $e^{x^2+2x-3} = 1$
 2. $2e^{2x}-e^x-1=0$
-3. $e^{\sqrt{3x-5}} <e$ 
+3. $e^{\sqrt{3x-5}} <e$
 4. $\dfrac{e^{2x+1}}{^{x-4}}\geqslant e^{x^2-1}$
 
 # Fonctions définies par $f(x)=e^{-kx}$ et $f(x)=e^{kx}$
@@ -239,11 +238,11 @@ $f(x)=e^{ax+b}$, où $a$ et $b$ sont des entiers relatifs, sont appelées
 
 Pour tous réels $a$ et $b$ fixés,
 
--   la fonction $f$ définie sur $\R$ par $f(x)=e^{ax+b}$ est dérivable
-    sur $\R$ et, pour tout réel $x$, $f'(x)=ae^{ax+b}$.
+- la fonction $f$ définie sur $\R$ par $f(x)=e^{ax+b}$ est dérivable
+  sur $\R$ et, pour tout réel $x$, $f'(x)=ae^{ax+b}$.
 
--   la fonction $f$ définie sur $\R$ par $f(x)=e^{-ax+b}$ est dérivable
-    sur $\R$ et, pour tout réel $x$, $f'(x)=-ae^{-ax+b}$.
+- la fonction $f$ définie sur $\R$ par $f(x)=e^{-ax+b}$ est dérivable
+  sur $\R$ et, pour tout réel $x$, $f'(x)=-ae^{-ax+b}$.
 
 :::
 
@@ -261,6 +260,6 @@ Par conséquent, $h$ est strictement décroissante sur $\R$.
 
 Étudier les variations des fonctions $f$ et $g$ définies sur $\R$ par :
 
--   $f(x)=e^{x+1}+x$
+- $f(x)=e^{x+1}+x$
 
--   $g(x)=e^{-2x+6}$
+- $g(x)=e^{-2x+6}$
