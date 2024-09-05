@@ -34,6 +34,7 @@ We need some tools for validate our SEO tags
 [https://cards-dev.twitter.com/validator](https://cards-dev.twitter.com/validator)
 
 Documentation: [https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/markup](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/markup)
+
 ### Google Data Structure Testing Tool
 
 :::important
