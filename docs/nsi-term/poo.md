@@ -140,9 +140,9 @@ class Voiture:
 v1 = Voiture("Toyota", "Corolla", 2015)
 v2 = Voiture("Tesla", "Model 3", 2020)
 
-print(v1.description())  
+print(v1.description())
 # Affiche "Toyota Corolla, 9 ans"
-print(v2.description())  
+print(v2.description())
 # Affiche "Tesla Model 3, 4 ans"
 ```
 
@@ -162,9 +162,9 @@ class Personne:
 p1 = Personne("Alice", 17)
 p2 = Personne("Bob", 20)
 
-print(f"{p1.nom} est majeur ? {p1.est_majeur()}")  
+print(f"{p1.nom} est majeur ? {p1.est_majeur()}")
 # Affiche "Alice est majeur ? False"
-print(f"{p2.nom} est majeur ? {p2.est_majeur()}")  
+print(f"{p2.nom} est majeur ? {p2.est_majeur()}")
 # Affiche "Bob est majeur ? True"
 ```
 
