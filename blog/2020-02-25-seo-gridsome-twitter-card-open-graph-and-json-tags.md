@@ -31,17 +31,16 @@ We need some tools for validate our SEO tags
 
 :::
 
-<https://cards-dev.twitter.com/validator>
+[https://cards-dev.twitter.com/validator](https://cards-dev.twitter.com/validator)
 
-Documentation: <https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/markup>
-
+Documentation: [https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/markup](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/markup)
 ### Google Data Structure Testing Tool
 
 :::important
 Work in development mode, with some copy/paste...
 :::
 
-<https://search.google.com/structured-data/testing-tool>
+[https://search.google.com/structured-data/testing-tool](https://search.google.com/structured-data/testing-tool)
 
 ## Global Metadatas
 
