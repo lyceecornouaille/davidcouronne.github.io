@@ -40,10 +40,5 @@
   },
   "devDependencies": {
     "prettier": "^2.4.1"
-  },
-  "pnpm": {
-    "overrides": {
-      "trim@<0.0.3 ": "^0.0.3"
-    }
   }
 }
