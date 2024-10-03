@@ -68,6 +68,13 @@ conda env create -n [name of the environment] [python version] [packages]
 conda env create -n [name of the environment] -f [file]
 ```
 
+
+## Packages conda pour la NSI
+
+```bash
+conda install jupyter pandas
+```
+
 ## Commandes pandoc
 
 ```bash
