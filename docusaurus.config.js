@@ -79,6 +79,12 @@ module.exports = {
         },
         {
           type: 'doc',
+          docId: 'annales/index',
+          position: 'left',
+          label: 'Annales',
+        },
+        {
+          type: 'doc',
           docId: 'maths/expo-premiere',
           position: 'left',
           label: 'Maths',
