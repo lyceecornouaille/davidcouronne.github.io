@@ -1,3 +1,7 @@
+---
+title: 24-NSIJ1ME1 - Exercice 3
+---
+
 ## EXERCICE 3 (8 points)
 
 _Cet exercice porte sur la programmation orientée objet, sur les arbres binaires de recherche et la récursivité._
@@ -10,23 +14,25 @@ pour aider à la bonne gestion de l’événement.
 Afin de caractériser un chien, l’organisateur décide de créer une classe `Chien` avec les attributs suivants :
 
 - `id_chien`, un nombre entier correspondant au numéro attribué au chien lors de son inscription à la course ;
+
 - `nom`, une chaîne de caractères correspondant au nom du chien ;
+
 - `role`, une chaîne de caractères correspondant au poste occupé par le chien : en fonction de sa place dans l’attelage, un chien a un rôle bien défini et peut être `'leader'`, `'swing dog'`, `'wheel dog'` ou `'team dog'`.
+
 - `id_proprietaire`, un nombre entier correspondant au numéro de l’équipe.
 
 Le code Python incomplet de la classe `Chien` est donné ci-dessous.
 
 ```python
-1 class Chien:
-2   def __init__(self, id_chien, nom, role, id_prop):
-3       self.id_chien = id_chien
-4       self.nom = nom
-5       self.role = role
-6       self.id_proprietaire = id_prop
-7   def changer_role(self, nouveau_role):
-8       """Change le rôle du chien avec la valeur passée en
-            paramètre."""
-9 ...
+1  class Chien:
+2     def __init__(self, id_chien, nom, role, id_prop):
+3         self.id_chien = id_chien
+4         self.nom = nom
+5         self.role = role
+6         self.id_proprietaire = id_prop
+7     def changer_role(self, nouveau_role):
+8        """Change le rôle du chien avec la valeur passée en paramètre."""
+9        ...
 ```
 
 Voici un extrait des informations dont on dispose sur les chiens inscrits à la course.
@@ -36,6 +42,7 @@ Voici un extrait des informations dont on dispose sur les chiens inscrits à la 
 Suite aux inscriptions, l’organisateur procède à la création de tous les objets de type `Chien` et les stocke dans des variables en choisissant un nom explicite. Ainsi, l’objet dont l’attribut `id_chien` a pour valeur 40 est stocké dans la variable `chien40`.
 
 1. **Écrire** l’instruction permettant d’instancier l’objet `chien40` caractérisant le chien ayant le numéro d’inscription 40.
+
 2. Selon l’état de fatigue de ses chiens ou du profil de l’étape, le _musher_ (nom donné à la personne qui conduit le traîneau) peut décider de changer le rôle des chiens dans l’attelage.
 
 **Recopier** et **compléter** la méthode `changer_role` de la classe `Chien`.
@@ -49,9 +56,13 @@ Suite aux inscriptions, l’organisateur procède à la création de tous les ob
 On souhaite à présent créer une classe `Equipe` ayant les attributs suivants :
 
 - `num_dossard`, un nombre entier correspondant au numéro inscrit sur le dossard du musher ;
+
 - `nom_equipe`, une chaîne de caractères correspondant au nom de l’équipe ;
+
 - `liste_chiens`, une liste d’objets de type `Chien` dont chaque élément correspond à un chien au départ de l’étape du jour ;
+
 - `temps_etape`, une chaîne de caractères (par exemple `'2h34'`) représentant le temps mis par l’équipe pour parcourir l’étape du jour ;
+
 - `liste_temps`, une liste de chaînes de caractères permettant de stocker les temps de l’équipe pour chacune des 9 étapes. Cet attribut peut, par exemple, contenir la liste : `['4h36', '3h57', '3h09', '5h49', '4h45', '3h26',
 '4h57', '5h52', '4h31']`.
 
@@ -86,7 +97,11 @@ Pour la première étape, le musher de l’équipe numéro 11, représentée en 
 5 eq11.ajouter_chien(chien46)
 ```
 
-Malheureusement, le musher s’aperçoit que sa chienne Helka, chien numéro 46, n’est pas au mieux de sa forme et il décide de la retirer de l’attelage. 4. **Recopier** et **compléter** la méthode `retirer_chien` ayant pour paramètre numero, un entier correspondant au numéro attribué au chien lors de l’inscription, et permettant de mettre à jour l’attribut `liste_chiens` après retrait du chien dont la valeur de l’attribut `id_chien` est numero. 5. En vous aidant de la fonction précédente, écrire l’instruction qui permet de retirer Helka de l’attelage de l’équipe `eq11`.
+Malheureusement, le musher s’aperçoit que sa chienne Helka, chien numéro 46, n’est pas au mieux de sa forme et il décide de la retirer de l’attelage.
+
+4. **Recopier** et **compléter** la méthode `retirer_chien` ayant pour paramètre numero, un entier correspondant au numéro attribué au chien lors de l’inscription, et permettant de mettre à jour l’attribut `liste_chiens` après retrait du chien dont la valeur de l’attribut `id_chien` est numero.
+
+5. En vous aidant de la fonction précédente, écrire l’instruction qui permet de retirer Helka de l’attelage de l’équipe `eq11`.
 
 On donne à présent le code Python d’une fonction `convert` prenant pour paramètre `chaine`, une chaîne de caractères représentant une durée, donnée en heure et minute.
 
@@ -99,17 +114,19 @@ On supposera que cette durée est toujours strictement inférieure à 10 heures,
 ```
 
 6. **Indiquer** le résultat renvoyé par l’appel `convert('4h36')`.
+
 7. **Écrire** une fonction `temps_course` qui prend pour paramètre `equipe` de type `Equipe` et qui renvoie un nombre flottant correspondant au cumul des temps de l’équipe `equipe` à l’issue des 9 étapes de la course.
 
 On rappelle que la classe `Equipe` dispose d’un attribut `liste_temps`.
 
-## Partie C : classement à l’issue d’une étape
+### Partie C : classement à l’issue d’une étape
 
 Chaque jour, à la fin de l’étape, on décide de construire un Arbre Binaire de Recherche (ABR) afin d’établir le classement des équipes. Chaque nœud de cet arbre est un objet de type `Equipe`.
 
 Dans cet arbre binaire de recherche, en tout nœud :
 
 - toutes les équipes du sous-arbre gauche sont strictement plus rapides que ce nœud ;
+
 - toutes les équipes du sous-arbre droit sont moins rapides ou sont à égalité avec ce nœud.
 
 Voici les temps, en heure et minute, relevés à l’issue de la première étape :
@@ -126,7 +143,7 @@ Dans l’arbre binaire de recherche initialement vide, on ajoute successivement,
 
 9. **Indiquer** quel parcours d’arbre permet d’obtenir la liste des équipes classées de la plus rapide à la plus lente.
 
-10. On donne ci-dessous la classe `Noeud`, permettant de définir les arbres binaires :
+On donne ci-dessous la classe `Noeud`, permettant de définir les arbres binaires :
 
 ```python
 1 class Noeud:
@@ -165,7 +182,11 @@ La fonction `construction_arbre` fait appel à la fonction `inserer` qui prend p
 13          ...
 ```
 
-**Expliquer** en quoi la fonction `inserer` est une fonction récursive. 11. **Recopier** et **compléter** les lignes 6, 8 et 13 de la fonction `inserer`. 12. **Recopier** et **compléter** les lignes 3 et 5 de la fonction `est_gagnante` ci-dessous qui prend en paramètre un ABR `arbre`, de type `Noeud`, et qui renvoie le nom de l’équipe ayant gagné l’étape.
+10. **Expliquer** en quoi la fonction `inserer` est une fonction récursive.
+
+11. **Recopier** et **compléter** les lignes 6, 8 et 13 de la fonction `inserer`.
+
+12. **Recopier** et **compléter** les lignes 3 et 5 de la fonction `est_gagnante` ci-dessous qui prend en paramètre un ABR `arbre`, de type `Noeud`, et qui renvoie le nom de l’équipe ayant gagné l’étape.
 
 ```python
 1 def est_gagnante(arbre):
@@ -189,11 +210,12 @@ Le règlement prévoit la disqualification d’une équipe en cas de non-respect
 Pour supprimer un nœud `N` dans un ABR, trois possibilités se présentent :
 
 - le nœud `N` à supprimer est une feuille : il suffit de le retirer de l’arbre ;
-- le nœud `N` à supprimer n’a qu’un seul fils : on relie le fils de `N` au père de `N` et
-  on supprime le nœud `N` ;
+
+- le nœud `N` à supprimer n’a qu’un seul fils : on relie le fils de `N` au père de `N` et on supprime le nœud `N` ;
+
 - le nœud `N` à supprimer possède deux fils : on le remplace par son successeur (l’équipe qui a le temps immédiatement supérieur) qui est toujours le minimum de ses descendants droits.
 
-13. Dessiner le nouvel arbre de recherche `a_final` obtenu après suppression des équipes `eq2` et `eq5` dans l’ABR correspondant au classement général.
+13. **Dessiner** le nouvel arbre de recherche `a_final` obtenu après suppression des équipes `eq2` et `eq5` dans l’ABR correspondant au classement général.
 
 L’organisateur souhaite disposer d’une fonction rechercher permettant de savoir si une équipe a été disqualifiée ou non. On donne les spécifications de la fonction `rechercher`, prenant en paramètre `arbre` et `equipe`.
 
@@ -218,6 +240,7 @@ Pour cette fonction (`a_final` désigne l’arbre obtenu à la question 13, apr�
 suppression des équipes 2 et 5) :
 
 - l’appel `rechercher(a_final, eq1)` renvoie `True` ;
+
 - l’appel `rechercher(a_final, eq2)` renvoie `False`.
 
 14. **Écrire** le code de la fonction
