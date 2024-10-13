@@ -65,7 +65,7 @@ def est_present(self, cle_a_rechercher):
 
 ## Partie B
 
-9. D'après la méthode fournie, un arbre est dit **partiellement équilibré** si, pour chaque nœud de l’arbre, la différence de hauteur entre son sous-arbre gauche et son sous-arbre droit est au plus égale à 1.
+9. D'après la méthode fournie, un arbre est dit **partiellement équilibré** si la différence de hauteur entre son sous-arbre gauche et son sous-arbre droit est au plus égale à 1.
 
 _En d’autres termes, un arbre partiellement équilibré ne permet pas de déséquilibre important entre les hauteurs des sous-arbres de chaque nœud._
 
