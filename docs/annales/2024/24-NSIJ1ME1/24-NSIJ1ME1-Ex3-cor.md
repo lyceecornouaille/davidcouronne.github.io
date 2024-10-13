@@ -107,7 +107,7 @@ def inserer(arb, eq):
 ```python
 def est_gagnante(arbre):
      if arbre.gauche == None:
-       return self.racine.nom_equipe
+       return arbre.racine.nom_equipe
      else:
        return est_gagnante(arbre.gauche)
 ```
