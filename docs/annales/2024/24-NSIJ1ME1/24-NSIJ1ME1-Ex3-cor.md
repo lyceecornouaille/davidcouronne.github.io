@@ -64,7 +64,7 @@ def temps_course(equipe):
 
 ## Partie C
 
-8. TODO Dessiner l'arbre
+8. ![](24-NSIJ1ME1-Ex3-cor-01.jpg)
 
 9. Le parcours **infixe** permet d'obtenir les valeurs d'un ABR par ordre croissant.
 
