@@ -112,7 +112,14 @@ def est_gagnante(arbre):
        return est_gagnante(arbre.gauche)
 ```
 
-13. TODO Dessiner l'arbre
+13. eq2 n'a qu'un fils droit. Donc on supprime eq2 et on relie son successeur eq3 à eq1.
+
+eq5 a deux fils, on le remplace par son successeur, c'est-à-dire l'équipe qui a le temps
+immédiatement supérieur, qui est le minimum de ses descendants droits.
+
+Ici c'est eq9 qui est le minimum des descendants droits.
+
+![](24-NSIJ1ME1-Ex3-cor-02.jpg)
 
 14. Code:
 
