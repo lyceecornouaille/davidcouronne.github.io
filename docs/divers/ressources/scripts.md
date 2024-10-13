@@ -5,7 +5,7 @@ description: Quelques scripts python utiles
 
 ## Script pour générer des images d'arbres binaires
 
-Prérequis:
+**Prérequis**:
 - **LaTeX** d'installé avec TiKZ
 - **Image Magick** d'installé pour la conversion du PDF en image.
 
