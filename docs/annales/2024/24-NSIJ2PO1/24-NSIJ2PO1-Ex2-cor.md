@@ -37,7 +37,7 @@ title: 24-NSIJ2PO1-Ex2 correction
 
 On en déduit:
 
-- hauteur de l'abre 1: 5
+- hauteur de l'arbre 1: 5
 - hauteur de l'arbre 2: 3
 - hauteur de l'arbre 3: 2
 
