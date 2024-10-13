@@ -64,7 +64,21 @@ def temps_course(equipe):
 
 ## Partie C
 
-8. ![](24-NSIJ1ME1-Ex3-cor-01.jpg)
+8. Le plus simple ici est de trier les équipes par temps croissant pour facilier la création de l'arbre.
+
+- eq1: 7
+- eq2: 4
+- eq3: 1
+- eq4: 10
+- eq5: 8
+- eq6: 2
+- eq7: 9
+- eq8: 11
+- eq9: 6
+- eq10: 3
+- eq11: 5
+
+![](24-NSIJ1ME1-Ex3-cor-01.jpg)
 
 9. Le parcours **infixe** permet d'obtenir les valeurs d'un ABR par ordre croissant.
 
