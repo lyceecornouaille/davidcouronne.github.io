@@ -79,18 +79,23 @@ _En d’autres termes, un arbre partiellement équilibré ne permet pas de dés�
 
 11. L'arbre 1 ne peut être équilibré car il n'est pas partiellement équilibré
 
-- pour l'arbre 2
+**Pour l'arbre 2**:
 
-  - il est partiellement équilibré
-  - sous-arbre gauche:
-    - hauteur sous arbre gauche du sous arbre gauche: 1
-    - hauteur sous arbre droit du sous arbre gauche: $-1$
-    - différence de hauteur: 2
-      Donc les sous-arbre gauche n'est pas partiellement équilibré, et n'est donc pas équilibré
+- il est partiellement équilibré.
 
-  Donc l'arbre 2 n'est pas équilibré
+**sous-arbre gauche:**
 
-- Par conséquent seul l'arbre 3 est équilibré
+- hauteur sous arbre gauche du sous arbre gauche: 1
+
+- hauteur sous arbre droit du sous arbre gauche: $-1$
+
+- différence de hauteur: 2
+
+Donc le sous-arbre gauche **n'est pas partiellement équilibré**, et n'est donc pas équilibré.
+
+Donc **l'arbre 2 n'est pas équilibré**.
+
+Par conséquent **seul l'arbre 3 est équilibré**.
 
 12. En utilisant les spécifications:
 
