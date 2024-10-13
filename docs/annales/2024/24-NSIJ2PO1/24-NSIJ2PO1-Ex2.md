@@ -85,7 +85,7 @@ Donner, **en utilisant cette méthode**, la hauteur des trois instances arbre_no
    `False` sinon :
 
 ```python
-1 def est_present(self, cle_a_rechercher):
+1 def est_presente(self, cle_a_rechercher):
 2   if self.est_vide() :
 3       return ...
 4   elif cle_a_rechercher == self.cle() :
