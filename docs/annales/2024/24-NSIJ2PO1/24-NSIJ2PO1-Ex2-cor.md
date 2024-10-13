@@ -44,15 +44,15 @@ On en déduit:
 7.
 
 ```python
-def est_present(self, cle_a_rechercher):
+def est_presente(self, cle_a_rechercher):
    if self.est_vide() :
        return False
    elif cle_a_rechercher == self.cle() :
        return True
    elif cle_a_rechercher < self.cle() :
-       return self.sag().est_present(cle_a_rechercher)
+       return self.sag().est_presente(cle_a_rechercher)
    else :
-       return self.sad().est_present(cle_a_rechercher)
+       return self.sad().est_presente(cle_a_rechercher)
 ```
 
 8. L'arbre 3 nécessitera le moins d'appels récursifs.
