@@ -1,3 +1,7 @@
+---
+title: 24-NSIJ2PO1-Ex2
+---
+
 ## Exercice 2 (6 points)
 
 _Cet exercice porte sur les arbres binaires de recherche, la POO et la récursivité._
