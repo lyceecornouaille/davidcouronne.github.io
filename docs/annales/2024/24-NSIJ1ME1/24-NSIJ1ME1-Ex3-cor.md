@@ -64,7 +64,7 @@ def temps_course(equipe):
 
 ## Partie C
 
-8. Le plus simple ici est de trier les équipes par temps croissant pour facilier la création de l'arbre.
+8. Le plus simple ici est de trier les équipes par temps croissant pour faciliter la création de l'arbre.
 
 - eq1: 7
 - eq2: 4
