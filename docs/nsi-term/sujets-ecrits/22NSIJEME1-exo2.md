@@ -1,4 +1,4 @@
-# 22NSIJ1ME1-Excercice 2
+# 22NSIJ1ME1-Exercice 2
 
 1. Récupération de données
 a) La requête `SELECT nom, prenom, naissance FROM individu WHERE nom = 'Crog'` va renvoyer :
